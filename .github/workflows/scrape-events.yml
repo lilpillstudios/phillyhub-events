@@ -1,0 +1,58 @@
+# .github/workflows/scrape-events.yml
+# PhillyHub Event Scraper — Daily Automated Run
+# Lil Pill Studios © 2026
+#
+# This workflow runs the event scraper daily and commits the updated
+# events.json to the repo. The PhillyHub app fetches this file at
+# the raw GitHub URL for live event data.
+#
+# Setup:
+# 1. Push this repo to GitHub
+# 2. The Action runs automatically on schedule
+# 3. Point the app's EVENTS_URL to:
+#    https://raw.githubusercontent.com/YOUR_USERNAME/phillyhub-events/main/events.json
+
+name: Scrape PhillyHub Events
+
+on:
+  schedule:
+    # Run daily at 6 AM EST (11 AM UTC)
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    # Allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        run: python scrape_events.py --verbose --output events.json
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet events.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "PhillyHub Bot"
+          git config user.email "bot@lilpill.com"
+          git add events.json
+          git commit -m "chore: update events.json [$(date -u +%Y-%m-%d)]"
+          git push
