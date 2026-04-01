@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "scraped_at": "2026-03-31T11:52:11.844047+00:00",
+  "scraped_at": "2026-04-01T11:54:10.760011+00:00",
   "source_count": 4,
-  "event_count": 25,
+  "event_count": 24,
   "events": [
     {
       "id": "ev_27b1a6d5",
@@ -16,6 +16,19 @@
       "free": true,
       "description": "Weekly free events honoring Philly firsts — Slinky, first Thanksgiving parade, the flag. New neighborhood each week.",
       "source": "phila.gov"
+    },
+    {
+      "id": "ev_9863fcac",
+      "title": "Exciting Sporting Events",
+      "date": "2026-03-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "2026 will also be a big year for sports in Philadelphia. It all started with the return ofMarch Madnessto Xfinity Mobile Arena, as Philly hosted 1stand 2nd-round games in the National Collegiate Athletic Association’s (NCAA) men’s basketball tournament on March 20 and 22. The city has been chosen as",
+      "source": "discoverphl.com"
     },
     {
       "id": "ev_fae0dd8d",
@@ -135,19 +148,6 @@
       "source": "discoverphl.com"
     },
     {
-      "id": "ev_2e377d1e",
-      "title": "Starting in 2025",
-      "date": "2026-06-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fifa",
-      "free": false,
-      "description": "Philadelphia is in no shortage of major events leading up to 2026. Football fanatics will get a taste of the World Cup in the summer of 2025 when Lincoln Financial Field hostsFIFA Club World Cup 2025™games. Philadelphia is one of 11 cities to host the tournament where international club teams will c",
-      "source": "discoverphl.com"
-    },
-    {
       "id": "ev_7acd1f67",
       "title": "Celebrating 250 Years Philly Style!",
       "date": "2026-06-01",
@@ -158,19 +158,6 @@
       "cat": "parade",
       "free": false,
       "description": "Kicking off a full year of celebration, Philadelphia will spotlight its many historic “firsts” in 2026 through52 Weeks of Firsts— a citywide series of weekly events, storytelling, and experiences.  Some historic firsts include the Slinky, the nation’s first Thanksgiving Day Parade, and the American ",
-      "source": "discoverphl.com"
-    },
-    {
-      "id": "ev_70576f94",
-      "title": "Exciting Sporting Events",
-      "date": "2026-06-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fifa",
-      "free": false,
-      "description": "2026 will also be a big year for sports in Philadelphia. The city has been chosen as one of the host cities for theFIFA World Cup 2026™, and will hold six matches at Lincoln Financial Field in the summer of 2026. The schedule includes five group stage matches and one round of 16 match, which will be",
       "source": "discoverphl.com"
     },
     {
