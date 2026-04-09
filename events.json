@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-09T05:27:06.090392+00:00",
+  "scraped_at": "2026-04-09T06:54:36.997393+00:00",
   "event_count": 71,
   "events": [
     {
@@ -668,6 +668,21 @@
       "priority": 1
     },
     {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -941,22 +956,6 @@
       "description": "Experience film, video, and installation by Arthur Jafa, David Hartt, Garrett Bradley, Ja’Tovia Gary, and Tourmaline. April–August 2026",
       "source": "visitphilly.com",
       "priority": 1
-    },
-    {
-      "id": "ev_e1a15d27",
-      "title": "Illumination 250 Festival and Drone Show in Haverford Township",
-      "date": "2026-08-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "ILLUMINATION 250 Festival presented by Visit Delco - America250PADelco",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-08-29"
     },
     {
       "id": "ev_8e5cb090",
