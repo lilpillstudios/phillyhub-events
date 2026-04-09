@@ -154,13 +154,7 @@ def scrape_visitphilly(verbose=False):
             time.sleep(FOLLOW_DELAY)
             page = fetch(href, verbose)
             if page:
-                # Search the full page text for date patterns
-                pg_text = page.get_text()
-                # Try common patterns: "June 4 - August 2, 2026", "May 11-17, 2026", etc
-                dm = re.search(r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:\s*[-–—]\s*(?:(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+)?\d{1,2})?,?\s*\d{4})',pg_text)
-                if dm:
-                    start,end = parse_range(dm.group(1))
-                    if not start: start = parse_date(dm.group(1))
+                start, end = _extract_event_date(page)
                 # Also try to grab venue from the page
                 if not venue:
                     ve = page.find(string=re.compile(r'Philadelphia,?\s*PA',re.I))
@@ -213,15 +207,90 @@ def scrape_discoverphl(existing_urls=None, verbose=False):
     if verbose: print(f"[discoverphl] Total from following: {len(events)}")
     return events
 
+def _extract_event_date(soup):
+    """Extract event date from a Visit Philly page using multiple strategies.
+    Returns (start_date, end_date) or (None, None)."""
+    
+    # Strategy 1: Schema.org / JSON-LD structured data (most reliable)
+    for script in soup.find_all("script", {"type": "application/ld+json"}):
+        try:
+            data = json.loads(script.string)
+            if isinstance(data, list): data = data[0]
+            if data.get("startDate"):
+                start = parse_date(data["startDate"][:10])
+                end = parse_date(data.get("endDate","")[:10]) if data.get("endDate") else None
+                if start: return start, end
+        except: pass
+    
+    # Strategy 2: Meta tags (og:, article:)
+    for meta_name in ["article:published_time","og:updated_time"]:
+        meta = soup.find("meta",{"property":meta_name})
+        # Skip these — they're article dates, not event dates
+    
+    # Strategy 3: Look for date near event-context words
+    text = soup.get_text()
+    # Patterns like "June 19 to July 4, 2026" or "Running from June 19..."
+    range_pat = re.search(
+        r'(?:from|running|begins?|opens?|starts?|returns?|held|scheduled)[:\s]+'
+        r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2})'
+        r'(?:\s*(?:to|through|[-–—])\s*'
+        r'(?:(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+)?\d{1,2})?'
+        r'(?:,?\s*\d{4})?',
+        text, re.I
+    )
+    if range_pat:
+        full = range_pat.group(0)
+        # Clean up the prefix
+        cleaned = re.sub(r'^(?:from|running|begins?|opens?|starts?|returns?|held|scheduled)[:\s]+','',full,flags=re.I)
+        start,end = parse_range(cleaned)
+        if start: return start, end
+    
+    # Strategy 4: Date with explicit year 2026 (more likely to be event date)
+    dated_2026 = re.findall(
+        r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*2026)',
+        text, re.I
+    )
+    if dated_2026:
+        # Filter out any near "published", "updated", "posted", "written", "last updated"
+        for d in dated_2026:
+            # Find the date in context — check 50 chars before it
+            idx = text.find(d)
+            if idx > 0:
+                before = text[max(0,idx-60):idx].lower()
+                if any(w in before for w in ["published","updated","posted","written","last updated","modified"]):
+                    continue
+            start = parse_date(d)
+            if start: return start, None
+    
+    # Strategy 5: Any future date on the page (last resort)
+    today = datetime.now().strftime("%Y-%m-%d")
+    all_dates = re.findall(
+        r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s*\d{4})?)',
+        text, re.I
+    )
+    for d in all_dates:
+        parsed = parse_date(d)
+        if parsed and parsed >= today:
+            # Check context to skip publication dates
+            idx = text.find(d)
+            if idx > 0:
+                before = text[max(0,idx-60):idx].lower()
+                if any(w in before for w in ["published","updated","posted","written","last updated","modified"]):
+                    continue
+            return parsed, None
+    
+    return None, None
+
 def _parse_vp_page(soup, url, verbose=False):
     try:
         h1 = soup.find("h1")
         if not h1: return None
         title = h1.get_text(strip=True)
         if len(title)<5: return None
-        text = soup.get_text()
-        dm = re.search(r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:,?\s*\d{4})?)',text)
-        date = parse_date(dm.group(1)) if dm else "2026-06-01"
+        
+        date, end_date = _extract_event_date(soup)
+        if not date: return None  # no date = skip
+        
         venue,addr = "",""
         ae = soup.find(string=re.compile(r'Philadelphia,?\s*PA',re.I))
         if ae: addr=ae.strip()[:200]; venue=addr.split(',')[0].strip()
@@ -232,10 +301,12 @@ def _parse_vp_page(soup, url, verbose=False):
                 pt=p.get_text(strip=True)
                 if len(pt)>50: desc=pt[:400]; break
         lat,lng = geocode(venue or title)
-        return {"id":make_id(title,date),"title":title[:150],"date":date,"time":"Various",
+        ev = {"id":make_id(title,date),"title":title[:150],"date":date,"time":"Various",
                 "venue":venue[:150] or "Philadelphia","addr":addr[:200],"lat":lat,"lng":lng,
                 "cat":categorize(title,desc),"free":"free" in (title+" "+desc).lower(),
                 "description":desc,"link":url,"priority":1}
+        if end_date: ev["end_date"] = end_date
+        return ev
     except Exception as e:
         if verbose: print(f"  PARSE ERROR: {e}",file=sys.stderr)
         return None
