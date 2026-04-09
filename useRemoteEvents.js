@@ -9,18 +9,14 @@
  * Usage in App:
  *   import { useRemoteEvents } from './useRemoteEvents';
  *   const { events, loading, source, lastUpdated, error } = useRemoteEvents(BUNDLED_EVENTS);
- *
- * Configure EVENTS_URL to point to your raw GitHub file:
- *   https://raw.githubusercontent.com/YOUR_USERNAME/phillyhub-events/main/events.json
  */
 
 // ─── Configuration ───────────────────────────────────────────────────
-// Replace with your actual GitHub raw URL after pushing the scraper repo
-const EVENTS_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/phillyhub-events/main/events.json";
+const EVENTS_URL = "https://raw.githubusercontent.com/lilpillstudios/phillyhub-events/main/events.json";
 
 // Cache key for localStorage
 const CACHE_KEY = "ph_events_cache";
-const CACHE_TTL = 1000 * 60 * 60 * 4; // 4 hours — don't hammer GitHub
+const CACHE_TTL = 1000 * 60 * 60 * 4; // 4 hours
 
 // ─── Hook ────────────────────────────────────────────────────────────
 import { useState, useEffect } from "react";
@@ -49,7 +45,6 @@ export function useRemoteEvents(bundledEvents) {
               setLastUpdated(parsed.scraped_at);
               setLoading(false);
             }
-            // Still try to fetch fresh in background, but don't block
             fetchFresh(parsed.events);
             return;
           }
@@ -65,7 +60,7 @@ export function useRemoteEvents(bundledEvents) {
     async function fetchFresh(fallbackEvents) {
       try {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 8000); // 8s timeout
+        const timeout = setTimeout(() => controller.abort(), 8000);
 
         const resp = await fetch(EVENTS_URL, {
           signal: controller.signal,
@@ -78,7 +73,6 @@ export function useRemoteEvents(bundledEvents) {
         const data = await resp.json();
 
         if (data.events && data.events.length > 0) {
-          // Validate shape — make sure events have required fields
           const valid = data.events.filter(
             (e) => e.id && e.title && e.date && e.lat && e.lng
           );
@@ -89,15 +83,12 @@ export function useRemoteEvents(bundledEvents) {
             setLastUpdated(data.scraped_at);
             setLoading(false);
 
-            // Cache for next time
             try {
               localStorage.setItem(
                 CACHE_KEY,
                 JSON.stringify({ ...data, _cachedAt: Date.now() })
               );
-            } catch (e) {
-              // Storage full or unavailable — ok
-            }
+            } catch (e) {}
             return;
           }
         }
@@ -106,7 +97,6 @@ export function useRemoteEvents(bundledEvents) {
       } catch (e) {
         if (!cancelled) {
           setError(e.message);
-          // Fall back to whatever we have (cache or bundled)
           if (events === bundledEvents) {
             setEvents(fallbackEvents);
           }
@@ -121,7 +111,7 @@ export function useRemoteEvents(bundledEvents) {
     return () => {
       cancelled = true;
     };
-  }, []); // Run once on mount
+  }, []);
 
   return { events, loading, source, lastUpdated, error };
 }
