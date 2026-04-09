@@ -148,8 +148,29 @@ def scrape_visitphilly(verbose=False):
             if len(t)>30: desc_parts.append(t)
         start,end = parse_range(date_text)
         if not start: start = parse_date(date_text)
+        if not start and href:
+            # No date inline — follow the event link to get date from destination page
+            if verbose: print(f"  FOLLOW (no inline date): {title[:45]}")
+            time.sleep(FOLLOW_DELAY)
+            page = fetch(href, verbose)
+            if page:
+                # Search the full page text for date patterns
+                pg_text = page.get_text()
+                # Try common patterns: "June 4 - August 2, 2026", "May 11-17, 2026", etc
+                dm = re.search(r'((?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2}(?:\s*[-–—]\s*(?:(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+)?\d{1,2})?,?\s*\d{4})',pg_text)
+                if dm:
+                    start,end = parse_range(dm.group(1))
+                    if not start: start = parse_date(dm.group(1))
+                # Also try to grab venue from the page
+                if not venue:
+                    ve = page.find(string=re.compile(r'Philadelphia,?\s*PA',re.I))
+                    if ve: addr=ve.strip()[:200]; venue=addr.split(',')[0].strip()
+                # Try meta description if we have no desc
+                if not desc_parts:
+                    md = page.find("meta",{"name":"description"})
+                    if md and md.get("content"): desc_parts=[md["content"][:400]]
         if not start:
-            if verbose: print(f"  SKIP (no date): {title[:50]}")
+            if verbose: print(f"  SKIP (no date even after follow): {title[:50]}")
             continue
         desc = " ".join(desc_parts)[:400]
         lat,lng = geocode(venue or title)
@@ -176,7 +197,7 @@ def scrape_discoverphl(existing_urls=None, verbose=False):
         href,text = a["href"],a.get_text(strip=True)
         if not href or not text or len(text)<5: continue
         parsed = urlparse(href)
-        if "visitphilly.com" in parsed.netloc and ("/things-to-do/" in parsed.path or "/events/" in parsed.path):
+        if "visitphilly.com" in parsed.netloc and ("/things-to-do/" in parsed.path or "/events/" in parsed.path or "/articles/" in parsed.path):
             if href not in existing_urls:
                 vp_urls.add(href)
     if verbose: print(f"[discoverphl] Found {len(vp_urls)} VP URLs to follow")
