@@ -483,7 +483,22 @@
     {
       "id": "ev_092db796",
       "title": "Roots Picnic",
-      "date": "2026-06-06",
+      "date": "2026-05-30",
+      "time": "12:00 PM",
+      "venue": "Fairmount Park (Belmont Mansion Drive)",
+      "addr": "Belmont Mansion Drive, Philadelphia, PA",
+      "lat": 39.978,
+      "lng": -75.202,
+      "cat": "concert",
+      "free": false,
+      "description": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
+      "source": "manual",
+      "priority": 10
+    },
+        {
+      "id": "ev_092db797",
+      "title": "Roots Picnic",
+      "date": "2026-05-31",
       "time": "12:00 PM",
       "venue": "Fairmount Park (Belmont Mansion Drive)",
       "addr": "Belmont Mansion Drive, Philadelphia, PA",
