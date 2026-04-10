@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-09T11:57:59.191350+00:00",
-  "event_count": 72,
+  "scraped_at": "2026-04-10T11:52:47.543952+00:00",
+  "event_count": 74,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -50,21 +50,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_ca9cae13",
-      "title": "Radical Americanafrom The Clay Studio",
-      "date": "2026-04-09",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_e8f5328c",
@@ -327,6 +312,21 @@
       "end_date": "2026-05-17"
     },
     {
+      "id": "ev_164f38e1",
+      "title": "Soundtrack of Independence at Tempesta di Mare",
+      "date": "2026-05-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_bb5c0824",
       "title": "Mahler and Sorey at the Kimmel Center for the Performing Arts",
       "date": "2026-05-16",
@@ -512,6 +512,21 @@
       "end_date": "2026-06-14"
     },
     {
+      "id": "ev_189545a8",
+      "title": "Franklinlandat Lantern Theater Company at St. Stephen's Theater",
+      "date": "2026-06-07",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "festival",
+      "free": false,
+      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing and insightful play of revolutionary consequences, in",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_f9b69a49",
       "title": "Soccer Fan Festival at Lemon Hill",
       "date": "2026-06-11",
@@ -668,21 +683,6 @@
       "priority": 1
     },
     {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -762,6 +762,21 @@
       "priority": 5
     },
     {
+      "id": "ev_82232efc",
+      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
+      "date": "2026-06-27",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19122",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": true,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_149a6ab7",
       "title": "Red, White & Blue To-Do",
       "date": "2026-06-28",
@@ -788,6 +803,21 @@
       "cat": "festival",
       "free": false,
       "description": "The historic building reopens in Philadelphia as a museum exploring the origins of banking in the United States.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_cb27893b",
+      "title": "America Celebrates 250 in New Hope",
+      "date": "2026-07-03",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -928,6 +958,21 @@
       "priority": 1
     },
     {
+      "id": "ev_fc623c2d",
+      "title": "America Today: Voices in Contemporary Printat The Print Center",
+      "date": "2026-07-25",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": ", Philadelphia, PA;",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_495a7cb3",
       "title": "America’s 250th Celebration in Newtown",
       "date": "2026-08-08",
@@ -1000,21 +1045,6 @@
       "cat": "festival",
       "free": false,
       "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_71d9c27a",
-      "title": "Let Freedom Ringat Cherry Street Pier",
-      "date": "2026-09-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": true,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
