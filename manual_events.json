@@ -10,11 +10,13 @@
     "lng": -75.1501,
     "cat": "festival",
     "free": false,
-    "desc": "Dozens of massive handcrafted lanterns celebrating the Year of the Horse + countries in the soccer tournament. Cultural performances, food vendors."
+    "desc": "Dozens of massive handcrafted lanterns celebrating the Year of the Horse + countries in the soccer tournament. Cultural performances, food vendors.",
+    "verify_url": "https://www.visitphilly.com/things-to-do/attractions/chinese-lantern-festival/"
   },
   {
     "title": "Roots Picnic",
-    "date": "2026-06-06",
+    "date": "2026-05-30",
+    "end_date": "2026-05-31",
     "time": "12:00 PM",
     "venue": "Fairmount Park (Belmont Mansion Drive)",
     "addr": "Belmont Mansion Drive, Philadelphia, PA",
@@ -22,7 +24,8 @@
     "lng": -75.2020,
     "cat": "concert",
     "free": false,
-    "desc": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival."
+    "desc": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
+    "verify_url": "https://rootspicnic.com"
   },
   {
     "title": "RiverRink Summerfest",
@@ -35,7 +38,8 @@
     "lng": -75.1416,
     "cat": "festival",
     "free": true,
-    "desc": "Rides, roller skating, arcade games, minigolf on the waterfront. Free admission, pay-as-you-go activities. Memorial Day through Labor Day."
+    "desc": "Rides, roller skating, arcade games, minigolf on the waterfront. Free admission, pay-as-you-go activities. Memorial Day through Labor Day.",
+    "verify_url": "https://www.delawareriverwaterfront.com/places/riverrink-summerfest"
   },
   {
     "title": "Odunde Festival",
@@ -47,7 +51,8 @@
     "lng": -75.1820,
     "cat": "parade",
     "free": true,
-    "desc": "Largest African and African-American street festival in the US. African marketplace, music, dance, food from across the diaspora. Second Sunday in June."
+    "desc": "Largest African and African-American street festival in the US. African marketplace, music, dance, food from across the diaspora. Second Sunday in June.",
+    "verify_url": "https://odundefestival.org"
   },
   {
     "title": "Philadelphia Cycling Classic",
@@ -72,7 +77,8 @@
     "lng": -75.1446,
     "cat": "america250",
     "free": true,
-    "desc": "9-day festival with immersive tours, historical re-enactments, Betsy Ross herself. Culminates on Flag Day with unveiling of a never-before-seen artifact."
+    "desc": "9-day festival with immersive tours, historical re-enactments, Betsy Ross herself. Culminates on Flag Day with unveiling of a never-before-seen artifact.",
+    "verify_url": "https://www.historicphiladelphia.org/betsy-ross-house/"
   },
   {
     "title": "What Now Creative Festival (ArtPhilly)",
@@ -85,7 +91,8 @@
     "lng": -75.1636,
     "cat": "festival",
     "free": false,
-    "desc": "10 days of multidisciplinary arts: concerts, theater, dance, visual art, museum experiences from 80+ local artists across iconic Philly venues."
+    "desc": "10 days of multidisciplinary arts: concerts, theater, dance, visual art, museum experiences from 80+ local artists across iconic Philly venues.",
+    "verify_url": "https://www.artphilly.com"
   },
   {
     "title": "Mann Center 50th Anniversary Concert",
@@ -97,6 +104,7 @@
     "lng": -75.2105,
     "cat": "concert",
     "free": false,
-    "desc": "Philadelphia Orchestra commemorative concert celebrating the Mann Center's 50th anniversary and America's 250th. World premiere with The Crossing choir."
+    "desc": "Philadelphia Orchestra commemorative concert celebrating the Mann Center's 50th anniversary and America's 250th. World premiere with The Crossing choir.",
+    "verify_url": "https://www.manncenter.org"
   }
 ]
