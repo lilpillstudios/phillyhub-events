@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-10T11:52:47.543952+00:00",
-  "event_count": 74,
+  "scraped_at": "2026-04-11T11:34:24.629535+00:00",
+  "event_count": 72,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -312,21 +312,6 @@
       "end_date": "2026-05-17"
     },
     {
-      "id": "ev_164f38e1",
-      "title": "Soundtrack of Independence at Tempesta di Mare",
-      "date": "2026-05-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_bb5c0824",
       "title": "Mahler and Sorey at the Kimmel Center for the Performing Arts",
       "date": "2026-05-16",
@@ -419,6 +404,22 @@
       "priority": 1
     },
     {
+      "id": "ev_cd70a5db",
+      "title": "Roots Picnic",
+      "date": "2026-05-30",
+      "time": "12:00 PM",
+      "venue": "Fairmount Park (Belmont Mansion Drive)",
+      "addr": "Belmont Mansion Drive, Philadelphia, PA",
+      "lat": 39.978,
+      "lng": -75.202,
+      "cat": "concert",
+      "free": false,
+      "description": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
+      "source": "manual",
+      "priority": 10,
+      "end_date": "2026-05-31"
+    },
+    {
       "id": "ev_177074d0",
       "title": "Beethoven and Marsalis at the Kimmel Center for the Performing Arts",
       "date": "2026-05-31",
@@ -481,36 +482,6 @@
       "priority": 1
     },
     {
-      "id": "ev_092db796",
-      "title": "Roots Picnic",
-      "date": "2026-05-30",
-      "time": "12:00 PM",
-      "venue": "Fairmount Park (Belmont Mansion Drive)",
-      "addr": "Belmont Mansion Drive, Philadelphia, PA",
-      "lat": 39.978,
-      "lng": -75.202,
-      "cat": "concert",
-      "free": false,
-      "description": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
-      "source": "manual",
-      "priority": 10
-    },
-        {
-      "id": "ev_092db797",
-      "title": "Roots Picnic",
-      "date": "2026-05-31",
-      "time": "12:00 PM",
-      "venue": "Fairmount Park (Belmont Mansion Drive)",
-      "addr": "Belmont Mansion Drive, Philadelphia, PA",
-      "lat": 39.978,
-      "lng": -75.202,
-      "cat": "concert",
-      "free": false,
-      "description": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
       "id": "ev_8d279e44",
       "title": "Betsy Ross House Flag Fest",
       "date": "2026-06-06",
@@ -537,7 +508,7 @@
       "lng": -75.1736,
       "cat": "festival",
       "free": false,
-      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing and insightful play of revolutionary consequences, in",
+      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing comedy of Revolutionary consequences, in the city whe",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -698,6 +669,21 @@
       "priority": 1
     },
     {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -818,21 +804,6 @@
       "cat": "festival",
       "free": false,
       "description": "The historic building reopens in Philadelphia as a museum exploring the origins of banking in the United States.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cb27893b",
-      "title": "America Celebrates 250 in New Hope",
-      "date": "2026-07-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -1047,21 +1018,6 @@
       "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
       "source": "manual",
       "priority": 10
-    },
-    {
-      "id": "ev_219e420c",
-      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
-      "date": "2026-09-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_7379b86a",
