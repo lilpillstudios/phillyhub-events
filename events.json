@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-11T11:34:24.629535+00:00",
-  "event_count": 72,
+  "scraped_at": "2026-04-12T11:37:29.734595+00:00",
+  "event_count": 74,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -50,21 +50,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_e8f5328c",
-      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
-      "date": "2026-04-11",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19140",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_ffb159cb",
@@ -143,6 +128,21 @@
       "priority": 1
     },
     {
+      "id": "ev_245b9c47",
+      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
+      "date": "2026-04-17",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19140",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_fffe9648",
       "title": "International Day of Monuments & Sites",
       "date": "2026-04-18",
@@ -184,21 +184,6 @@
       "cat": "festival",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_58532aa7",
-      "title": "America 250 Exhibits & Programming at the Historical Society of Pennsylvania",
-      "date": "2026-04-24",
-      "time": "Various",
-      "venue": "February 22",
-      "addr": "February 22, 2026 | 2 p.m. - 5 p.m. | 1300 Locust St., Philadelphia, PA 19107",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The Historical Society of Pennsylvania is one of the largest family history libraries in the nation, has excellent collections on local and regional history, and offers a manuscript collection renowned for its 17th-, 18th-, and 19th-century holdings. ",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -264,6 +249,21 @@
       "priority": 1
     },
     {
+      "id": "ev_9f7818b4",
+      "title": "America 250 Exhibits & Programming at the Historical Society of Pennsylvania",
+      "date": "2026-05-07",
+      "time": "Various",
+      "venue": "May 7",
+      "addr": "May 7, 2026 | 6:30 p.m. | 1300 Locust St., Philadelphia, PA 19107 and Zoom",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "The Historical Society of Pennsylvania is one of the largest family history libraries in the nation, has excellent collections on local and regional history, and offers a manuscript collection renowned for its 17th-, 18th-, and 19th-century holdings. ",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_7d8808ea",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
       "date": "2026-05-07",
@@ -310,6 +310,21 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-05-17"
+    },
+    {
+      "id": "ev_164f38e1",
+      "title": "Soundtrack of Independence at Tempesta di Mare",
+      "date": "2026-05-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_bb5c0824",
@@ -1018,6 +1033,21 @@
       "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
       "source": "manual",
       "priority": 10
+    },
+    {
+      "id": "ev_219e420c",
+      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
+      "date": "2026-09-19",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_7379b86a",
