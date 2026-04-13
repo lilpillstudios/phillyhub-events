@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-12T11:37:29.734595+00:00",
-  "event_count": 74,
+  "scraped_at": "2026-04-13T12:06:46.525699+00:00",
+  "event_count": 73,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,21 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_dc4e2f32",
-      "title": "A Nation of Artistsat the Philadelphia Museum of Art and Pennsylvania Academy of Fine Arts",
-      "date": "2026-04-12",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19130",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "This groundbreaking dual-location exhibition celebrates American creativity with works by both underrepresented and iconic artists.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_1f7fb6f8",
