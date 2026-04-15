@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-14T12:00:06.117754+00:00",
-  "event_count": 75,
+  "scraped_at": "2026-04-15T11:59:26.462018+00:00",
+  "event_count": 73,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,21 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_1f7fb6f8",
-      "title": "1776: The Musicalat Walnut Street Theatre",
-      "date": "2026-04-14",
-      "time": "Various",
-      "venue": "1776 The Musical -- Walnut Street Theatre -- Philadelphia",
-      "addr": "1776 The Musical -- Walnut Street Theatre -- Philadelphia, PA -- Official Website",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_f383b630",
@@ -215,21 +200,6 @@
       "cat": "america250",
       "free": false,
       "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_0529d170",
-      "title": "America 250 at the University of Pennsylvania",
-      "date": "2026-05-05",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -418,6 +388,21 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-05-31"
+    },
+    {
+      "id": "ev_f9535445",
+      "title": "1776: The Musicalat Walnut Street Theatre",
+      "date": "2026-05-31",
+      "time": "Various",
+      "venue": "1776 The Musical -- Walnut Street Theatre -- Philadelphia",
+      "addr": "1776 The Musical -- Walnut Street Theatre -- Philadelphia, PA -- Official Website",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_177074d0",
@@ -665,21 +650,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
       "source": "visitphilly.com",
       "priority": 1
     },
