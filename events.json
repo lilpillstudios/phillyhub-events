@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-15T11:59:26.462018+00:00",
-  "event_count": 73,
+  "scraped_at": "2026-04-16T12:01:04.706569+00:00",
+  "event_count": 74,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -200,6 +200,21 @@
       "cat": "america250",
       "free": false,
       "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_0529d170",
+      "title": "America 250 at the University of Pennsylvania",
+      "date": "2026-05-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
       "source": "visitphilly.com",
       "priority": 1
     },
