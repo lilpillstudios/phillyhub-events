@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-16T12:01:04.706569+00:00",
-  "event_count": 74,
+  "scraped_at": "2026-04-17T11:55:08.032401+00:00",
+  "event_count": 75,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,21 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_f383b630",
-      "title": "Mural Arts’ Semiquincentennial Projects",
-      "date": "2026-04-16",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Mural Arts Philadelphia celebrates the nation's 250th anniversary with inspiring artwork, community workshops, new installations and more.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_8312eadd",
@@ -189,21 +174,6 @@
       "end_date": "2026-05-10"
     },
     {
-      "id": "ev_a096d324",
-      "title": "World Heritage Month",
-      "date": "2026-05-01",
-      "time": "Various",
-      "venue": "Philadelphia Parks and Recreation",
-      "addr": "Philadelphia Parks and Recreation",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_0529d170",
       "title": "America 250 at the University of Pennsylvania",
       "date": "2026-05-05",
@@ -215,6 +185,21 @@
       "cat": "festival",
       "free": false,
       "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_260299fc",
+      "title": "World Heritage Month",
+      "date": "2026-05-06",
+      "time": "Various",
+      "venue": "Philadelphia Parks and Recreation",
+      "addr": "Philadelphia Parks and Recreation",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -669,6 +654,21 @@
       "priority": 1
     },
     {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -1033,6 +1033,21 @@
       "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
       "source": "manual",
       "priority": 10
+    },
+    {
+      "id": "ev_0768d0e6",
+      "title": "A Nation of Artistsat the Philadelphia Museum of Art and Pennsylvania Academy of Fine Arts",
+      "date": "2026-08-31",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9656,
+      "lng": -75.181,
+      "cat": "festival",
+      "free": false,
+      "description": "Explore 10 highlights from this groundbreaking dual-location exhibition that celebrates American creativity with works by underrepresented and iconic artists.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_219e420c",
