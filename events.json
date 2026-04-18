@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-17T11:55:08.032401+00:00",
-  "event_count": 75,
+  "scraped_at": "2026-04-18T11:38:40.718067+00:00",
+  "event_count": 72,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,36 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_8312eadd",
-      "title": "250th Anniversary Events & Exhibits at the Schwenkfelder Library & Heritage Center",
-      "date": "2026-04-17",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_245b9c47",
-      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
-      "date": "2026-04-17",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19140",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_fffe9648",
@@ -174,17 +144,17 @@
       "end_date": "2026-05-10"
     },
     {
-      "id": "ev_0529d170",
-      "title": "America 250 at the University of Pennsylvania",
-      "date": "2026-05-05",
+      "id": "ev_ddaa9bf4",
+      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
+      "date": "2026-05-02",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "",
+      "addr": "Philadelphia, PA 19140",
       "lat": 39.9524,
       "lng": -75.1636,
-      "cat": "festival",
+      "cat": "america250",
       "free": false,
-      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -200,21 +170,6 @@
       "cat": "america250",
       "free": false,
       "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_9f7818b4",
-      "title": "America 250 Exhibits & Programming at the Historical Society of Pennsylvania",
-      "date": "2026-05-07",
-      "time": "Various",
-      "venue": "May 7",
-      "addr": "May 7, 2026 | 6:30 p.m. | 1300 Locust St., Philadelphia, PA 19107 and Zoom",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The Historical Society of Pennsylvania is one of the largest family history libraries in the nation, has excellent collections on local and regional history, and offers a manuscript collection renowned for its 17th-, 18th-, and 19th-century holdings. ",
       "source": "visitphilly.com",
       "priority": 1
     },
