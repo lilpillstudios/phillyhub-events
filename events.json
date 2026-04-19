@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-18T11:38:40.718067+00:00",
-  "event_count": 72,
+  "scraped_at": "2026-04-19T11:38:58.935635+00:00",
+  "event_count": 71,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -68,36 +68,6 @@
       "end_date": "2026-09-05"
     },
     {
-      "id": "ev_fffe9648",
-      "title": "International Day of Monuments & Sites",
-      "date": "2026-04-18",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA  19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "International Day of Monuments and Sites is celebrated annually all over the world on April 18th as a way to honor heritage, diversity, community,",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_9e13e6a2",
-      "title": "250th Anniversary Events at Historic Trappe",
-      "date": "2026-04-18",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Celebrating the U.S. Semiquincentennial in 2026 Historic Trappe will commemorate the 250th anniversary of the United States in 2026 with three major initiatives across its properties. Visitors will experience how German-speaking people were at the center of the political, military, and religious tensions that swept through Pennsylvania at the founding of the United States. Here",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_7d3c7447",
       "title": "New Exhibitions at Weitzman National Museum of American Jewish History",
       "date": "2026-04-23",
@@ -155,6 +125,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_0529d170",
+      "title": "America 250 at the University of Pennsylvania",
+      "date": "2026-05-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
       "source": "visitphilly.com",
       "priority": 1
     },
