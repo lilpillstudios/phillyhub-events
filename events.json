@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-20T12:07:56.076886+00:00",
-  "event_count": 70,
+  "scraped_at": "2026-04-21T12:02:16.226249+00:00",
+  "event_count": 69,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -205,21 +205,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-05-17"
-    },
-    {
-      "id": "ev_164f38e1",
-      "title": "Soundtrack of Independence at Tempesta di Mare",
-      "date": "2026-05-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_bb5c0824",
