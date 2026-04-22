@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-22T12:02:15.002310+00:00",
-  "event_count": 71,
+  "scraped_at": "2026-04-22T19:06:02.333250+00:00",
+  "event_count": 64,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -96,22 +96,6 @@
       "description": "Discover the Philadelphia Museum of Art, home to renowned art collections, groundbreaking exhibitions, and a legacy of creativity and innovation.",
       "source": "visitphilly.com",
       "priority": 1
-    },
-    {
-      "id": "ev_5f15d429",
-      "title": "What Now Creative Festival (ArtPhilly)",
-      "date": "2026-05-01",
-      "time": "Various",
-      "venue": "Citywide",
-      "addr": "Various locations, Philadelphia, PA",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "10 days of multidisciplinary arts: concerts, theater, dance, visual art, museum experiences from 80+ local artists across iconic Philly venues.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-05-10"
     },
     {
       "id": "ev_ddaa9bf4",
@@ -267,22 +251,6 @@
       "priority": 1
     },
     {
-      "id": "ev_3b36aa14",
-      "title": "RiverRink Summerfest",
-      "date": "2026-05-23",
-      "time": "Daily",
-      "venue": "Delaware River Waterfront",
-      "addr": "101 S Columbus Blvd, Philadelphia, PA",
-      "lat": 39.9459,
-      "lng": -75.1416,
-      "cat": "festival",
-      "free": true,
-      "description": "Rides, roller skating, arcade games, minigolf on the waterfront. Free admission, pay-as-you-go activities. Memorial Day through Labor Day.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-09-01"
-    },
-    {
       "id": "ev_252de11a",
       "title": "ArtPhillyWhat Now",
       "date": "2026-05-27",
@@ -312,22 +280,6 @@
       "description": "The Philadelphia Gay Men's Chorus is proud to announce its 44th season!",
       "source": "visitphilly.com",
       "priority": 1
-    },
-    {
-      "id": "ev_cd70a5db",
-      "title": "Roots Picnic",
-      "date": "2026-05-30",
-      "time": "12:00 PM",
-      "venue": "Fairmount Park (Belmont Mansion Drive)",
-      "addr": "Belmont Mansion Drive, Philadelphia, PA",
-      "lat": 39.978,
-      "lng": -75.202,
-      "cat": "concert",
-      "free": false,
-      "description": "Jay-Z, Erykah Badu, Kehlani, Brandy, T.I., De La Soul, DJ Jazzy Jeff, Adam Blackstone and more. Philly's signature music festival.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-05-31"
     },
     {
       "id": "ev_f9535445",
@@ -360,22 +312,6 @@
       "priority": 1
     },
     {
-      "id": "ev_d051edb9",
-      "title": "Chinese Lantern Festival",
-      "date": "2026-06-04",
-      "time": "6:00 PM - 11:00 PM",
-      "venue": "Franklin Square",
-      "addr": "200 N 6th St, Philadelphia, PA",
-      "lat": 39.9534,
-      "lng": -75.1501,
-      "cat": "festival",
-      "free": false,
-      "description": "Dozens of massive handcrafted lanterns celebrating the Year of the Horse + countries in the soccer tournament. Cultural performances, food vendors.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-08-02"
-    },
-    {
       "id": "ev_d6df3dd3",
       "title": "Highmark Mann Center for the Performing Arts 50th Anniversary Performance Series",
       "date": "2026-06-04",
@@ -405,22 +341,6 @@
       "description": "",
       "source": "visitphilly.com",
       "priority": 1
-    },
-    {
-      "id": "ev_8d279e44",
-      "title": "Betsy Ross House Flag Fest",
-      "date": "2026-06-06",
-      "time": "10:00 AM - 5:00 PM",
-      "venue": "Betsy Ross House",
-      "addr": "239 Arch St, Philadelphia, PA",
-      "lat": 39.9529,
-      "lng": -75.1446,
-      "cat": "america250",
-      "free": true,
-      "description": "9-day festival with immersive tours, historical re-enactments, Betsy Ross herself. Culminates on Flag Day with unveiling of a never-before-seen artifact.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-06-14"
     },
     {
       "id": "ev_189545a8",
@@ -485,21 +405,6 @@
       "end_date": "2026-06-13"
     },
     {
-      "id": "ev_e119384e",
-      "title": "Odunde Festival",
-      "date": "2026-06-14",
-      "time": "10:00 AM",
-      "venue": "South Philadelphia (23rd & South)",
-      "addr": "23rd St & South St, Philadelphia, PA",
-      "lat": 39.9435,
-      "lng": -75.182,
-      "cat": "parade",
-      "free": true,
-      "description": "Largest African and African-American street festival in the US. African marketplace, music, dance, food from across the diaspora. Second Sunday in June.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
       "id": "ev_7c5d2f74",
       "title": "Ivory Coast vs Ecuador",
       "date": "2026-06-14",
@@ -514,21 +419,6 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
-    },
-    {
-      "id": "ev_209c802a",
-      "title": "Mann Center 50th Anniversary Concert",
-      "date": "2026-06-18",
-      "time": "7:00 PM",
-      "venue": "Highmark Mann Center",
-      "addr": "5201 Parkside Ave, Philadelphia, PA",
-      "lat": 39.977,
-      "lng": -75.2105,
-      "cat": "concert",
-      "free": false,
-      "description": "Philadelphia Orchestra commemorative concert celebrating the Mann Center's 50th anniversary and America's 250th. World premiere with The Crossing choir.",
-      "source": "manual",
-      "priority": 10
     },
     {
       "id": "ev_43a236ab",
@@ -963,16 +853,16 @@
       "id": "ev_8e5cb090",
       "title": "Philadelphia Cycling Classic",
       "date": "2026-08-30",
-      "time": "All Day",
-      "venue": "Logan Square / Kelly Drive / Manayunk",
-      "addr": "Benjamin Franklin Parkway, Philadelphia, PA",
-      "lat": 39.9571,
-      "lng": -75.1709,
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
       "cat": "concert",
-      "free": true,
-      "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
-      "source": "manual",
-      "priority": 10
+      "free": false,
+      "description": "Philadelphia’s elite cycling race since 1985. \nReturning August 30, 2026 #TheClassicIsBack ",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_0768d0e6",
