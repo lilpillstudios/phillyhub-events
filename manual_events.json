@@ -107,4 +107,75 @@
     "desc": "Philadelphia Orchestra commemorative concert celebrating the Mann Center's 50th anniversary and America's 250th. World premiere with The Crossing choir.",
     "verify_url": "https://www.manncenter.org"
   }
+    {
+    "title": "Rhythm Nation",
+    "date": "2026-05-15",
+    "time": "9:00 PM",
+    "end_time": "2:00 AM",
+    "venue": "Margolis",
+    "addr": "9 W Wildley St, Philadelphia, PA 19123",
+    "lat": 39.9716,
+    "lng": -75.1358,
+    "cat": "concert",
+    "free": false,
+    "desc": "Multigenre dance night celebrating House, Afrobeats, Baile Funk, UK Garage, Amapiano. Featuring DJs Kingspy, Sylo & TJ Groover. Don Julio cocktail tasting menu.",
+    "tix": "https://blacksoulsummer.com/rhythmnation/",
+    "verify_url": "https://blacksoulsummer.com/rhythmnation/"
+  },
+  {
+    "title": "Stock Market Flea: Magazine Drop",
+    "date": "2026-04-22",
+    "time": "8:00 PM",
+    "end_time": "12:00 AM",
+    "venue": "Margolis",
+    "addr": "9 W Wildley St, Philadelphia, PA 19123",
+    "lat": 39.9716,
+    "lng": -75.1358,
+    "cat": "festival",
+    "free": true,
+    "desc": "Community event highlighting local creatives with a new magazine release. DJ sets, visuals, and creative atmosphere. Free with RSVP. Hosted by @stockedup2015 with @ni8_ and @itsdjdj."
+  },
+  {
+    "title": "Philadelphia Creators Summit",
+    "date": "2026-04-24",
+    "time": "9:00 AM",
+    "end_time": "7:00 PM",
+    "venue": "The Quorum",
+    "addr": "Philadelphia, PA",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "cat": "festival",
+    "free": true,
+    "desc": "Lenfest Institute & Google News Initiative summit for news creators. Build audience, learn revenue strategies, and network with creators shaping the future of local storytelling.",
+    "tix": "https://www.eventbrite.com/e/lenfest-institute-philadelphia-creators-summit-tickets-1985516752054",
+    "verify_url": "https://www.lenfestinstitute.org/solutions-resources/2026-philadelphia-creators-summit/"
+  },
+  {
+    "title": "Hash N' B",
+    "date": "2026-04-24",
+    "time": "9:00 PM",
+    "end_time": "2:00 AM",
+    "venue": "Margolis",
+    "addr": "9 W Wildley St, Philadelphia, PA 19123",
+    "lat": 39.9716,
+    "lng": -75.1358,
+    "cat": "concert",
+    "free": false,
+    "desc": "Late night vibes at Margolis. 21+ event. Follow @hashland on Instagram for details.",
+    "tix": "https://posh.vip/e/hnb-424-margolis"
+  },
+  {
+    "title": "Strictly Bashment",
+    "date": "2026-04-24",
+    "time": "10:00 PM",
+    "end_time": "2:00 AM",
+    "venue": "Silk City",
+    "addr": "435 Spring Garden St, Philadelphia, PA 19123",
+    "lat": 39.9614,
+    "lng": -75.1530,
+    "cat": "concert",
+    "free": false,
+    "desc": "Internashional Bounce presents Strictly Bashment. Penn Relay Weekend. Dancehall, reggae, soca, and bashment riddims all night. Sounds by Na$h + DJ Afrik. 21+.",
+    "tix": "https://posh.vip/e/strictly-bashment"
+  }
 ]
