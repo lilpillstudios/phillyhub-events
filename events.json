@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-22T19:39:49.594904+00:00",
-  "event_count": 76,
+  "scraped_at": "2026-04-23T12:01:31.329071+00:00",
+  "event_count": 75,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,21 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_4e470037",
-      "title": "Stock Market Flea: Magazine Drop",
-      "date": "2026-04-22",
-      "time": "8:00 PM",
-      "venue": "Margolis",
-      "addr": "9 W Wildley St, Philadelphia, PA 19123",
-      "lat": 39.9716,
-      "lng": -75.1358,
-      "cat": "festival",
-      "free": true,
-      "description": "Community event highlighting local creatives with a new magazine release. DJ sets, visuals, and creative atmosphere. Free with RSVP. Hosted by @stockedup2015 with @ni8_ and @itsdjdj.",
-      "source": "manual",
-      "priority": 10
     },
     {
       "id": "ev_7d3c7447",
