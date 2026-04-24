@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-23T12:01:31.329071+00:00",
-  "event_count": 75,
+  "scraped_at": "2026-04-24T12:01:05.665293+00:00",
+  "event_count": 78,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,21 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_7d3c7447",
-      "title": "New Exhibitions at Weitzman National Museum of American Jewish History",
-      "date": "2026-04-23",
-      "time": "Various",
-      "venue": "PHILADELPHIA",
-      "addr": "PHILADELPHIA, Pa. (November 13, 2025) – To mark the 250th anniversary of the United States, the",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_b920d131",
@@ -204,9 +189,9 @@
       "priority": 1
     },
     {
-      "id": "ev_7d8808ea",
+      "id": "ev_9158f611",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -282,8 +267,8 @@
       "priority": 10
     },
     {
-      "id": "ev_bb5c0824",
-      "title": "Mahler and Sorey at the Kimmel Center for the Performing Arts",
+      "id": "ev_226b6669",
+      "title": "Bruckner and Sorey at the Kimmel Center for the Performing Arts",
       "date": "2026-05-16",
       "time": "Various",
       "venue": "Philadelphia",
@@ -302,12 +287,12 @@
       "date": "2026-05-17",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "",
+      "addr": "Philadelphia, PA",
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "festival",
       "free": false,
-      "description": "By partnering with regional and national performers, we will transform Philadelphia into a vibrant hub where Jewish musical expression meets mainstream appreciation.",
+      "description": "Proudly celebrating our Jewish identity and building bridges of understanding.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -591,6 +576,21 @@
       "priority": 10
     },
     {
+      "id": "ev_24527e40",
+      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
+      "date": "2026-06-18",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9529,
+      "lng": -75.1446,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_43a236ab",
       "title": "Brazil vs Haiti",
       "date": "2026-06-19",
@@ -620,22 +620,6 @@
       "description": "16 days from Juneteenth to July 4th. Concerts, parades, fireworks.",
       "source": "city",
       "priority": 3,
-      "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_9af503d4",
-      "title": "Wawa Welcome America, including the Red, White & Blue To-Do",
-      "date": "2026-06-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19130",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fireworks",
-      "free": false,
-      "description": "Philly celebrates independence — and America's 250th birthday — with the 16 days of fireworks, parades, concerts and more.",
-      "source": "visitphilly.com",
-      "priority": 1,
       "end_date": "2026-07-04"
     },
     {
@@ -791,6 +775,22 @@
       "description": "The historic building reopens in Philadelphia as a museum exploring the origins of banking in the United States.",
       "source": "visitphilly.com",
       "priority": 1
+    },
+    {
+      "id": "ev_ca7539b5",
+      "title": "Red, White & Blue To-Do",
+      "date": "2026-07-02",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "fireworks",
+      "free": false,
+      "description": "Celebrate Independence Day early with concerts, games, restaurant specials, and more during a day of pomp and parade on July 2.",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-07-02"
     },
     {
       "id": "ev_cb27893b",
@@ -1004,6 +1004,21 @@
       "priority": 1
     },
     {
+      "id": "ev_237b8a83",
+      "title": "UFC 330 at Xfinity Mobile Arena",
+      "date": "2026-08-15",
+      "time": "Various",
+      "venue": "– UFC announced today it will return to Philadelphia",
+      "addr": "– UFC announced today it will return to Philadelphia, PA on Saturday, August 15 for",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_e1a15d27",
       "title": "Illumination 250 Festival and Drone Show in Haverford Township",
       "date": "2026-08-29",
@@ -1050,6 +1065,21 @@
       "priority": 1
     },
     {
+      "id": "ev_fa52fdb9",
+      "title": "Once Upon a Nation",
+      "date": "2026-09-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_219e420c",
       "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
       "date": "2026-09-19",
@@ -1061,6 +1091,21 @@
       "cat": "festival",
       "free": false,
       "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_0751a12c",
+      "title": "Some American Dreamsat The Fabric Workshop and Museum",
+      "date": "2026-09-20",
+      "time": "Various",
+      "venue": "1214 Arch Street",
+      "addr": "1214 Arch Street, Philadelphia, PA 19107",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Learn more about The Fabric Workshop and Museum (FWM), including our mission, history, Board of Directors and our Artist Advisory Committee.",
       "source": "visitphilly.com",
       "priority": 1
     },
