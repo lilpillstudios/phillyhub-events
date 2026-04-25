@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-24T12:01:05.665293+00:00",
-  "event_count": 78,
+  "scraped_at": "2026-04-25T11:42:12.075218+00:00",
+  "event_count": 75,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -66,51 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_b920d131",
-      "title": "Philadelphia Creators Summit",
-      "date": "2026-04-24",
-      "time": "9:00 AM",
-      "venue": "The Quorum",
-      "addr": "Philadelphia, PA",
-      "lat": 39.9526,
-      "lng": -75.1652,
-      "cat": "festival",
-      "free": true,
-      "description": "Lenfest Institute & Google News Initiative summit for news creators. Build audience, learn revenue strategies, and network with creators shaping the future of local storytelling.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_9b4cd0da",
-      "title": "Hash N' B",
-      "date": "2026-04-24",
-      "time": "9:00 PM",
-      "venue": "Margolis",
-      "addr": "9 W Wildley St, Philadelphia, PA 19123",
-      "lat": 39.9716,
-      "lng": -75.1358,
-      "cat": "concert",
-      "free": false,
-      "description": "Late night vibes at Margolis. 21+ event. Follow @hashland on Instagram for details.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_177b3676",
-      "title": "Strictly Bashment",
-      "date": "2026-04-24",
-      "time": "10:00 PM",
-      "venue": "Silk City",
-      "addr": "435 Spring Garden St, Philadelphia, PA 19123",
-      "lat": 39.9614,
-      "lng": -75.153,
-      "cat": "concert",
-      "free": false,
-      "description": "Internashional Bounce presents Strictly Bashment. Penn Relay Weekend. Dancehall, reggae, soca, and bashment riddims all night. Sounds by Na$h + DJ Afrik. 21+.",
-      "source": "manual",
-      "priority": 10
     },
     {
       "id": "ev_576d69b8",
@@ -884,6 +839,22 @@
       "priority": 1
     },
     {
+      "id": "ev_84bddf5e",
+      "title": "Major League Baseball All-Star Game and All-Star Week",
+      "date": "2026-07-10",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19148",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "The biggest stars in Major Leage Baseball take to the field at Citizens Bank Park in 2026, just in time for America's 250th birthday celebrations.",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-07-14"
+    },
+    {
       "id": "ev_5f8de24e",
       "title": "Benjamin Franklin Bridge 100th Anniversary Celebration",
       "date": "2026-07-11",
@@ -927,21 +898,6 @@
       "description": "Baseball returns to Philly for the first time in 30 years.",
       "source": "city",
       "priority": 3
-    },
-    {
-      "id": "ev_c34d9405",
-      "title": "Major League Baseball All-Star Game and All-Star Week",
-      "date": "2026-07-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19148",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "The biggest stars in baseball take to the field at Citizens Bank Park in 2026, just in time for America's 250th birthday celebrations.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_e51394c2",
