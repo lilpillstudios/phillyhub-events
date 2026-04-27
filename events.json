@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-26T11:42:32.601367+00:00",
-  "event_count": 73,
+  "scraped_at": "2026-04-27T12:22:53.489147+00:00",
+  "event_count": 75,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -563,6 +563,21 @@
       "end_date": "2026-07-04"
     },
     {
+      "id": "ev_f8aea28a",
+      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_f6f6b098",
       "title": "Arc of Promiseat Woodmere",
       "date": "2026-06-20",
@@ -655,6 +670,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_82232efc",
+      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
+      "date": "2026-06-27",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19122",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": true,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_149a6ab7",
