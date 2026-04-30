@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-04-29T12:20:01.062435+00:00",
-  "event_count": 76,
+  "scraped_at": "2026-04-30T12:18:06.910927+00:00",
+  "event_count": 74,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -68,6 +68,22 @@
       "end_date": "2026-09-05"
     },
     {
+      "id": "ev_21b26902",
+      "title": "America 250 at the University of Pennsylvania",
+      "date": "2026-04-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-05-12"
+    },
+    {
       "id": "ev_5f15d429",
       "title": "What Now Creative Festival (ArtPhilly)",
       "date": "2026-05-01",
@@ -95,21 +111,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_0529d170",
-      "title": "America 250 at the University of Pennsylvania",
-      "date": "2026-05-05",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -190,21 +191,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-05-17"
-    },
-    {
-      "id": "ev_164f38e1",
-      "title": "Soundtrack of Independence at Tempesta di Mare",
-      "date": "2026-05-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_36d547ee",
@@ -1047,21 +1033,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_219e420c",
-      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
-      "date": "2026-09-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
       "source": "visitphilly.com",
       "priority": 1
     },
