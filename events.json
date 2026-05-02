@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-01T12:02:24.250387+00:00",
-  "event_count": 76,
+  "scraped_at": "2026-05-02T11:50:23.223941+00:00",
+  "event_count": 77,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -145,9 +145,9 @@
       "priority": 1
     },
     {
-      "id": "ev_9158f611",
+      "id": "ev_7d8808ea",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-08",
+      "date": "2026-05-07",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -1093,6 +1093,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_cfa6d557",
+      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
+      "date": "2026-11-08",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
