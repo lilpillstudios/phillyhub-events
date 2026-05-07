@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-06T12:30:07.389273+00:00",
-  "event_count": 77,
+  "scraped_at": "2026-05-07T12:59:50.839010+00:00",
+  "event_count": 76,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -98,21 +98,6 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-05-10"
-    },
-    {
-      "id": "ev_260299fc",
-      "title": "World Heritage Month",
-      "date": "2026-05-06",
-      "time": "Various",
-      "venue": "Philadelphia Parks and Recreations",
-      "addr": "Philadelphia Parks and Recreations",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "World Heritage Month is a celebration of Philadelphia’s World Heritage City designation.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_9f7818b4",
@@ -249,6 +234,21 @@
       "cat": "festival",
       "free": false,
       "description": "Proudly celebrating our Jewish identity and building bridges of understanding.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_2b2a8e5e",
+      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
+      "date": "2026-05-17",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -1093,21 +1093,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cfa6d557",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-11-08",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
