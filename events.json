@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-07T12:59:50.839010+00:00",
-  "event_count": 76,
+  "scraped_at": "2026-05-08T12:11:14.560305+00:00",
+  "event_count": 77,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,24 +100,9 @@
       "end_date": "2026-05-10"
     },
     {
-      "id": "ev_9f7818b4",
-      "title": "America 250 Exhibits & Programming at the Historical Society of Pennsylvania",
-      "date": "2026-05-07",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19107 and Zoom",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Celebrating the Nation's Semiquincentennial in 2026",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_7d8808ea",
+      "id": "ev_9158f611",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -234,6 +219,21 @@
       "cat": "festival",
       "free": false,
       "description": "Proudly celebrating our Jewish identity and building bridges of understanding.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f060b0bb",
+      "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
+      "date": "2026-05-17",
+      "time": "Various",
+      "venue": "5600 City Ave. Philadelphia",
+      "addr": "5600 City Ave. Philadelphia, PA 19131",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -402,6 +402,21 @@
       "lat": 39.9534,
       "lng": -75.1501,
       "cat": "festival",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_37d06fb2",
+      "title": "American Kennel Club Celebrates USA 250 at The Navy Yard",
+      "date": "2026-06-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19112",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
       "free": false,
       "description": "",
       "source": "visitphilly.com",
