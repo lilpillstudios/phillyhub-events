@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-09T11:54:39.841661+00:00",
-  "event_count": 85,
+  "scraped_at": "2026-05-10T11:55:52.972227+00:00",
+  "event_count": 83,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,54 +100,9 @@
       "end_date": "2026-05-10"
     },
     {
-      "id": "ev_78524097",
-      "title": "Yoga & Networking in Philly",
-      "date": "2026-05-09",
-      "time": "1:00 PM",
-      "venue": "The Green Room",
-      "addr": "uCity Square, Philadelphia, PA",
-      "lat": 39.9526,
-      "lng": -75.1652,
-      "cat": "wellness",
-      "free": false,
-      "description": "Yoga and networking event bringing together Philly professionals for movement and connection.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_a85f4edd",
-      "title": "Club Advisory at Bastet",
-      "date": "2026-05-09",
-      "time": "10:00 PM",
-      "venue": "Bastet",
-      "addr": "601 Spring Garden, Philadelphia, PA",
-      "lat": 39.9612,
-      "lng": -75.1545,
-      "cat": "nightlife",
-      "free": false,
-      "description": "Club Advisory night at Bastet.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_d65b12dd",
-      "title": "Sweet Stanzas Open Mic",
-      "date": "2026-05-09",
-      "time": "8:00 PM",
-      "venue": "Malelani Cafe",
-      "addr": "6734 Germantown Ave, Philadelphia, PA",
-      "lat": 40.0506,
-      "lng": -75.1827,
-      "cat": "arts",
-      "free": false,
-      "description": "Open mic night for poets and performers at Malelani Cafe in Germantown.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_f7204bb1",
+      "id": "ev_d8bbd42a",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-09",
+      "date": "2026-05-10",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -1062,6 +1017,21 @@
       "cat": "festival",
       "free": false,
       "description": "Here's what to expect at the Independence Seaport Museum, an interactive attraction exploring Philadelphia’s maritime heritage.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fc623c2d",
+      "title": "America Today: Voices in Contemporary Printat The Print Center",
+      "date": "2026-07-25",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": ", Philadelphia, PA;",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
