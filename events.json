@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-10T11:55:52.972227+00:00",
-  "event_count": 83,
+  "scraped_at": "2026-05-11T13:50:48.551694+00:00",
+  "event_count": 80,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -84,38 +84,6 @@
       "end_date": "2026-05-12"
     },
     {
-      "id": "ev_5f15d429",
-      "title": "What Now Creative Festival (ArtPhilly)",
-      "date": "2026-05-01",
-      "time": "Various",
-      "venue": "Citywide",
-      "addr": "Various locations, Philadelphia, PA",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "10 days of multidisciplinary arts: concerts, theater, dance, visual art, museum experiences from 80+ local artists across iconic Philly venues.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-05-10"
-    },
-    {
-      "id": "ev_d8bbd42a",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-10",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_f6a7ae1b",
       "title": "PGA Championship",
       "date": "2026-05-11",
@@ -146,6 +114,22 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-05-17"
+    },
+    {
+      "id": "ev_ef0ae9ae",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-05-13",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_686a1144",
@@ -279,21 +263,6 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_2b2a8e5e",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-05-17",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -695,21 +664,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
       "source": "visitphilly.com",
       "priority": 1
     },
