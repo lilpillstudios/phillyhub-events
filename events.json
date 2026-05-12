@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-11T13:50:48.551694+00:00",
-  "event_count": 80,
+  "scraped_at": "2026-05-12T13:06:42.402261+00:00",
+  "event_count": 81,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -263,6 +263,21 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_2b2a8e5e",
+      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
+      "date": "2026-05-17",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -816,9 +831,9 @@
       "addr": "",
       "lat": 39.9524,
       "lng": -75.1636,
-      "cat": "america250",
+      "cat": "fireworks",
       "free": false,
-      "description": "",
+      "description": "Discover America Celebrates Events, including the America 250 celebration with engaging educational discussions and festive Independence Day events.",
       "source": "visitphilly.com",
       "priority": 1
     },
