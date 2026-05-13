@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-12T13:06:42.402261+00:00",
+  "scraped_at": "2026-05-13T13:14:05.734500+00:00",
   "event_count": 81,
   "events": [
     {
@@ -66,22 +66,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_21b26902",
-      "title": "America 250 at the University of Pennsylvania",
-      "date": "2026-04-30",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Join us for America 250 at Penn events and exhibits hosted by participating partners across campus.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-05-12"
     },
     {
       "id": "ev_f6a7ae1b",
@@ -497,6 +481,21 @@
       "priority": 1
     },
     {
+      "id": "ev_bae251be",
+      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
+      "date": "2026-06-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9529,
+      "lng": -75.1446,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_8d279e44",
       "title": "Betsy Ross House Flag Fest",
       "date": "2026-06-06",
@@ -621,21 +620,6 @@
       "priority": 10
     },
     {
-      "id": "ev_24527e40",
-      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
-      "date": "2026-06-18",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9529,
-      "lng": -75.1446,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_43a236ab",
       "title": "Brazil vs Haiti",
       "date": "2026-06-19",
@@ -679,6 +663,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
       "source": "visitphilly.com",
       "priority": 1
     },
