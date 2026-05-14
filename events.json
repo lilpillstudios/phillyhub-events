@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-13T13:14:05.734500+00:00",
+  "scraped_at": "2026-05-14T12:28:08.007908+00:00",
   "event_count": 81,
   "events": [
     {
@@ -100,22 +100,6 @@
       "end_date": "2026-05-17"
     },
     {
-      "id": "ev_ef0ae9ae",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_686a1144",
       "title": "HuB Karaoke: Throwback Edition",
       "date": "2026-05-14",
@@ -144,6 +128,22 @@
       "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
       "source": "visitphilly.com",
       "priority": 1
+    },
+    {
+      "id": "ev_c0aff28e",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-05-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_36d547ee",
@@ -1064,22 +1064,6 @@
       "priority": 1
     },
     {
-      "id": "ev_e1a15d27",
-      "title": "Illumination 250 Festival and Drone Show in Haverford Township",
-      "date": "2026-08-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "ILLUMINATION 250 Festival presented by Visit Delco - America250PADelco",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-08-29"
-    },
-    {
       "id": "ev_8e5cb090",
       "title": "Philadelphia Cycling Classic",
       "date": "2026-08-30",
@@ -1151,6 +1135,21 @@
       "cat": "festival",
       "free": false,
       "description": "Learn more about The Fabric Workshop and Museum (FWM), including our mission, history, Board of Directors and our Artist Advisory Committee.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_8d053c6f",
+      "title": "Spirit of 76: The Philadelphia Cocktail Trail",
+      "date": "2026-09-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "2026 is Philly's biggest year yet. And more than 30 Philly hotels are serving history for America’s 250th birthday …",
       "source": "visitphilly.com",
       "priority": 1
     },
