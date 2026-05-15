@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-14T12:28:08.007908+00:00",
-  "event_count": 81,
+  "scraped_at": "2026-05-15T12:57:34.260498+00:00",
+  "event_count": 80,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,52 +100,6 @@
       "end_date": "2026-05-17"
     },
     {
-      "id": "ev_686a1144",
-      "title": "HuB Karaoke: Throwback Edition",
-      "date": "2026-05-14",
-      "time": "9:00 PM",
-      "venue": "The HuB",
-      "addr": "435 Spring Garden, Philadelphia, PA",
-      "lat": 39.9612,
-      "lng": -75.1545,
-      "cat": "nightlife",
-      "free": true,
-      "description": "Throwback edition karaoke night at The HuB on Spring Garden.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_164f38e1",
-      "title": "Soundtrack of Independence at Tempesta di Mare",
-      "date": "2026-05-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Curated concert experiences, a participatory school band project, and community events, that bring together performers, art-lovers, citizens, scholars and",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_c0aff28e",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_36d547ee",
       "title": "Rhythm Nation",
       "date": "2026-05-15",
@@ -174,6 +128,22 @@
       "description": "21+ all love songs party at Blind Barber. No cover before 10pm.",
       "source": "manual",
       "priority": 10
+    },
+    {
+      "id": "ev_6fc2d02c",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-05-15",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_49962e9b",
@@ -247,21 +217,6 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_2b2a8e5e",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-05-17",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -1064,6 +1019,22 @@
       "priority": 1
     },
     {
+      "id": "ev_e1a15d27",
+      "title": "Illumination 250 Festival and Drone Show in Haverford Township",
+      "date": "2026-08-29",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "ILLUMINATION 250 Festival presented by Visit Delco - America250PADelco",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-08-29"
+    },
+    {
       "id": "ev_8e5cb090",
       "title": "Philadelphia Cycling Classic",
       "date": "2026-08-30",
@@ -1165,6 +1136,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_cfa6d557",
+      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
+      "date": "2026-11-08",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
