@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-16T11:55:00.501274+00:00",
-  "event_count": 77,
+  "scraped_at": "2026-05-17T12:02:48.225076+00:00",
+  "event_count": 74,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,39 +100,9 @@
       "end_date": "2026-05-17"
     },
     {
-      "id": "ev_49962e9b",
-      "title": "B-Sides: Day Party",
-      "date": "2026-05-16",
-      "time": "5:00 PM",
-      "venue": "Margos",
-      "addr": "9 W Wildey St, Philadelphia, PA",
-      "lat": 39.9655,
-      "lng": -75.1393,
-      "cat": "nightlife",
-      "free": false,
-      "description": "B-Sides day party at Margos in Fishtown.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_0c5662d1",
-      "title": "International Bounce Presents: Ayiti Nights",
-      "date": "2026-05-16",
-      "time": "10:00 PM",
-      "venue": "Broad Hall",
-      "addr": "699 N Broad St, Philadelphia, PA",
-      "lat": 39.9645,
-      "lng": -75.1612,
-      "cat": "nightlife",
-      "free": false,
-      "description": "International Bounce presents Ayiti Nights — a celebration of Haitian music and culture at Broad Hall.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_78014f69",
+      "id": "ev_3ceffcb9",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -144,21 +114,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-06-07"
-    },
-    {
-      "id": "ev_226b6669",
-      "title": "Bruckner and Sorey at the Kimmel Center for the Performing Arts",
-      "date": "2026-05-16",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19102",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_1b8699f3",
