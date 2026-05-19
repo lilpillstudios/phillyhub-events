@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-18T14:33:28.945205+00:00",
-  "event_count": 70,
+  "scraped_at": "2026-05-19T13:57:57.079904+00:00",
+  "event_count": 71,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -481,6 +481,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
       "source": "visitphilly.com",
       "priority": 1
     },
