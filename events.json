@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-20T13:42:13.953130+00:00",
-  "event_count": 71,
+  "scraped_at": "2026-05-21T14:16:59.778267+00:00",
+  "event_count": 70,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -68,24 +68,9 @@
       "end_date": "2026-09-05"
     },
     {
-      "id": "ev_4579defa",
-      "title": "New Galleries at the National Constitution Center",
-      "date": "2026-05-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Celebrate America's Semiquincentennial at the National Constitution Center's new America's Founding gallery, now open in Philadelphia.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_d6dfdaa8",
+      "id": "ev_bfede0b9",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-20",
+      "date": "2026-05-21",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
