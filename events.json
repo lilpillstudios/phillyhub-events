@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-21T14:16:59.778267+00:00",
-  "event_count": 70,
+  "scraped_at": "2026-05-22T13:34:16.564045+00:00",
+  "event_count": 71,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -68,9 +68,9 @@
       "end_date": "2026-09-05"
     },
     {
-      "id": "ev_bfede0b9",
+      "id": "ev_eff45808",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -313,6 +313,21 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-06-14"
+    },
+    {
+      "id": "ev_02538f98",
+      "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
+      "date": "2026-06-06",
+      "time": "Various",
+      "venue": "5600 City Ave. Philadelphia",
+      "addr": "5600 City Ave. Philadelphia, PA 19131",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_189545a8",
