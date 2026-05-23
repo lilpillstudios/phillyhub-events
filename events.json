@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-22T13:34:16.564045+00:00",
+  "scraped_at": "2026-05-23T12:02:20.287863+00:00",
   "event_count": 71,
   "events": [
     {
@@ -68,22 +68,6 @@
       "end_date": "2026-09-05"
     },
     {
-      "id": "ev_eff45808",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-22",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_3b36aa14",
       "title": "RiverRink Summerfest",
       "date": "2026-05-23",
@@ -128,6 +112,22 @@
       "description": "Official after party for RedBull Dance Your Style competition.",
       "source": "manual",
       "priority": 10
+    },
+    {
+      "id": "ev_01153675",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-05-23",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_1060f6c6",
