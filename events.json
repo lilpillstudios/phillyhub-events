@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-23T12:02:20.287863+00:00",
-  "event_count": 71,
+  "scraped_at": "2026-05-24T12:03:06.815028+00:00",
+  "event_count": 69,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -84,39 +84,9 @@
       "end_date": "2026-09-01"
     },
     {
-      "id": "ev_e58aad68",
-      "title": "Bodies in Space",
-      "date": "2026-05-23",
-      "time": "7:00 PM",
-      "venue": "410 Monroe St",
-      "addr": "410 Monroe St, Philadelphia, PA",
-      "lat": 39.9356,
-      "lng": -75.1502,
-      "cat": "arts",
-      "free": false,
-      "description": "Bodies in Space — performance/art event.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_598b1f1d",
-      "title": "RedBull Dance Your Style Official After Party",
-      "date": "2026-05-23",
-      "time": "",
-      "venue": "",
-      "addr": "Philadelphia, PA",
-      "lat": 39.9526,
-      "lng": -75.1652,
-      "cat": "nightlife",
-      "free": false,
-      "description": "Official after party for RedBull Dance Your Style competition.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_01153675",
+      "id": "ev_329494ad",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
