@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-25T14:10:38.859900+00:00",
+  "scraped_at": "2026-05-26T13:57:59.664171+00:00",
   "event_count": 68,
   "events": [
     {
@@ -451,6 +451,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -954,21 +969,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cfa6d557",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-11-08",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
