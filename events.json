@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-28T14:40:21.909001+00:00",
+  "scraped_at": "2026-05-29T14:11:30.687343+00:00",
   "event_count": 69,
   "events": [
     {
@@ -100,9 +100,9 @@
       "end_date": "2026-07-02"
     },
     {
-      "id": "ev_3c04dcf6",
+      "id": "ev_49005042",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -116,9 +116,9 @@
       "end_date": "2026-06-07"
     },
     {
-      "id": "ev_9b24064d",
+      "id": "ev_8d7632c5",
       "title": "Philadelphia Gay Men’s Chorus:British Invasionat the Independence Seaport Museum",
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA, 19103",
@@ -455,21 +455,6 @@
       "priority": 1
     },
     {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -788,6 +773,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_ac54d7e1",
+      "title": "The Sound of Americaat FringeArts",
+      "date": "2026-08-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Before Elvis, Jagger and Springsteen there was… Franklin! A new rock musical at FringeArts, Philadelphia. July 1 – August 1, 2026.",
       "source": "visitphilly.com",
       "priority": 1
     },
