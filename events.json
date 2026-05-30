@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-05-29T14:11:30.687343+00:00",
+  "scraped_at": "2026-05-30T12:07:19.208849+00:00",
   "event_count": 69,
   "events": [
     {
@@ -100,37 +100,6 @@
       "end_date": "2026-07-02"
     },
     {
-      "id": "ev_49005042",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-05-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
-      "id": "ev_8d7632c5",
-      "title": "Philadelphia Gay Men’s Chorus:British Invasionat the Independence Seaport Museum",
-      "date": "2026-05-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA, 19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The Philadelphia Gay Men's Chorus is proud to announce its 44th season!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_cd70a5db",
       "title": "Roots Picnic",
       "date": "2026-05-30",
@@ -145,6 +114,37 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-05-31"
+    },
+    {
+      "id": "ev_1800480a",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-05-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
+    },
+    {
+      "id": "ev_9ca1ffcf",
+      "title": "Philadelphia Gay Men’s Chorus:British Invasionat the Independence Seaport Museum",
+      "date": "2026-05-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA, 19103",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "The Philadelphia Gay Men's Chorus is proud to announce its 44th season!",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_83b2b1c3",
