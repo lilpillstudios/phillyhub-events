@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-02T14:56:10.218485+00:00",
-  "event_count": 65,
+  "scraped_at": "2026-06-03T15:30:04.057238+00:00",
+  "event_count": 62,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -153,14 +153,15 @@
       "date": "2026-06-05",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9534,
-      "lng": -75.1501,
+      "addr": "Philadelphia, PA 19102",
+      "lat": 39.9524,
+      "lng": -75.1636,
       "cat": "festival",
       "free": false,
-      "description": "",
+      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
       "source": "visitphilly.com",
-      "priority": 1
+      "priority": 1,
+      "end_date": "2026-08-16"
     },
     {
       "id": "ev_37d06fb2",
@@ -364,36 +365,6 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_f8aea28a",
-      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9582,
-      "lng": -75.1736,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -473,21 +444,6 @@
       "priority": 5
     },
     {
-      "id": "ev_82232efc",
-      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
-      "date": "2026-06-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": true,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_149a6ab7",
       "title": "Red, White & Blue To-Do",
       "date": "2026-06-28",
@@ -501,6 +457,21 @@
       "description": "Parades, concerts in America's most historic square mile.",
       "source": "city",
       "priority": 3
+    },
+    {
+      "id": "ev_ce272c11",
+      "title": "Houses of Declaration in Montgomery County",
+      "date": "2026-06-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Check out all the ways to celebrate the birth of our nation around the region.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_7c05d5a0",
@@ -938,21 +909,6 @@
       "cat": "festival",
       "free": false,
       "description": "The Philadelphia Gay Men's Chorus is proud to announce its 44th season!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_b9bada85",
-      "title": "Houses of Declaration in Montgomery County",
-      "date": "2026-12-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Check out all the ways to celebrate the birth of our nation around the region.",
       "source": "visitphilly.com",
       "priority": 1
     },
