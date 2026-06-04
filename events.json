@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-03T15:30:04.057238+00:00",
-  "event_count": 62,
+  "scraped_at": "2026-06-04T14:00:03.901485+00:00",
+  "event_count": 65,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,22 +100,6 @@
       "end_date": "2026-07-02"
     },
     {
-      "id": "ev_4c288e8b",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-06-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_d051edb9",
       "title": "Chinese Lantern Festival",
       "date": "2026-06-04",
@@ -130,6 +114,22 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-08-02"
+    },
+    {
+      "id": "ev_4c018bf9",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-06-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_d6df3dd3",
@@ -365,6 +365,21 @@
       "end_date": "2026-07-04"
     },
     {
+      "id": "ev_f8aea28a",
+      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -442,6 +457,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_82232efc",
+      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
+      "date": "2026-06-27",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19122",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": true,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_149a6ab7",
@@ -819,6 +849,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_219e420c",
+      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
+      "date": "2026-09-19",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
       "source": "visitphilly.com",
       "priority": 1
     },
