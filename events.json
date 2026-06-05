@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-04T14:00:03.901485+00:00",
-  "event_count": 65,
+  "scraped_at": "2026-06-05T13:54:37.075777+00:00",
+  "event_count": 67,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -116,22 +116,6 @@
       "end_date": "2026-08-02"
     },
     {
-      "id": "ev_4c018bf9",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-06-04",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
       "id": "ev_d6df3dd3",
       "title": "Highmark Mann Center for the Performing Arts 50th Anniversary Performance Series",
       "date": "2026-06-04",
@@ -146,6 +130,22 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-06-18"
+    },
+    {
+      "id": "ev_73960ee7",
+      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
+      "date": "2026-06-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-06-07"
     },
     {
       "id": "ev_997983f7",
@@ -380,6 +380,21 @@
       "priority": 1
     },
     {
+      "id": "ev_f6f6b098",
+      "title": "Arc of Promiseat Woodmere",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_ada2ae2c",
       "title": "Juneteenth Parade & Festival",
       "date": "2026-06-21",
@@ -425,6 +440,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_c9c830bd",
+      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
+      "date": "2026-06-24",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19140",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_15dae74a",
