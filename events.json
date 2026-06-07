@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-06T12:07:37.162672+00:00",
+  "scraped_at": "2026-06-07T12:23:59.464988+00:00",
   "event_count": 66,
   "events": [
     {
@@ -164,9 +164,9 @@
       "end_date": "2026-06-14"
     },
     {
-      "id": "ev_191a6009",
+      "id": "ev_3b5d3a01",
       "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-06-06",
+      "date": "2026-06-07",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
@@ -180,9 +180,9 @@
       "end_date": "2026-06-07"
     },
     {
-      "id": "ev_16970192",
+      "id": "ev_db46361b",
       "title": "American Kennel Club Celebrates USA 250 at The Navy Yard",
-      "date": "2026-06-06",
+      "date": "2026-06-07",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19112",
@@ -191,21 +191,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_02538f98",
-      "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
-      "date": "2026-06-06",
-      "time": "Various",
-      "venue": "5600 City Ave. Philadelphia",
-      "addr": "5600 City Ave. Philadelphia, PA 19131",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -879,6 +864,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_219e420c",
+      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
+      "date": "2026-09-19",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
       "source": "visitphilly.com",
       "priority": 1
     },
