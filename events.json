@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-07T12:23:59.464988+00:00",
-  "event_count": 66,
+  "scraped_at": "2026-06-08T14:51:21.341298+00:00",
+  "event_count": 62,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -164,33 +164,17 @@
       "end_date": "2026-06-14"
     },
     {
-      "id": "ev_3b5d3a01",
-      "title": "Cirque du Soleil PresentsLuziaat The Fairgrounds at the Greater Philadelphia Expo Center",
-      "date": "2026-06-07",
+      "id": "ev_3e50b5ab",
+      "title": "Franklinlandat Lantern Theater Company at St. Stephen's Theater",
+      "date": "2026-06-08",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "festival",
       "free": false,
-      "description": "LUZIA takes you in a world of acrobatics, music, and stunning visuals, bringing the sights and sounds of Mexico to life. Get your Cirque du Soleil tickets now!",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-07"
-    },
-    {
-      "id": "ev_db46361b",
-      "title": "American Kennel Club Celebrates USA 250 at The Navy Yard",
-      "date": "2026-06-07",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19112",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
+      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing comedy of Revolutionary consequences, in the city whe",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -271,21 +255,6 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
-    },
-    {
-      "id": "ev_fa0364b1",
-      "title": "Franklinlandat Lantern Theater Company at St. Stephen's Theater",
-      "date": "2026-06-14",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9582,
-      "lng": -75.1736,
-      "cat": "festival",
-      "free": false,
-      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing comedy of Revolutionary consequences, in the city whe",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_3df9b924",
@@ -717,21 +686,6 @@
       "priority": 1
     },
     {
-      "id": "ev_fc623c2d",
-      "title": "America Today: Voices in Contemporary Printat The Print Center",
-      "date": "2026-07-25",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": ", Philadelphia, PA;",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_ac54d7e1",
       "title": "The Sound of Americaat FringeArts",
       "date": "2026-08-01",
@@ -788,21 +742,6 @@
       "cat": "festival",
       "free": true,
       "description": "Experience film, video, and installation by Arthur Jafa, David Hartt, Garrett Bradley, Ja’Tovia Gary, and Tourmaline. April–August 2026",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_237b8a83",
-      "title": "UFC 330 at Xfinity Mobile Arena",
-      "date": "2026-08-15",
-      "time": "Various",
-      "venue": "– UFC announced today it will return to Philadelphia",
-      "addr": "– UFC announced today it will return to Philadelphia, PA on Saturday, August 15 for",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
