@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-11T14:41:18.663971+00:00",
+  "scraped_at": "2026-06-12T14:12:24.265349+00:00",
   "event_count": 62,
   "events": [
+    {
+      "id": "ev_ffcd909e",
+      "title": "The Doan Gang: Outlaws of the Revolutionat the Mercer Museum",
+      "date": "2024-05-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9483,
+      "lng": -75.1464,
+      "cat": "festival",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2027-01-01"
+    },
     {
       "id": "ev_453e6ed0",
       "title": "52 Weeks of Firsts",
@@ -164,21 +180,6 @@
       "priority": 5
     },
     {
-      "id": "ev_729916b0",
-      "title": "FIFA World Cup 26 and FIFA FanFestival",
-      "date": "2026-06-11",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fifa",
-      "free": false,
-      "description": "The biggest sporting event in the world comes to Philly with a festival and six FIFA World Cup games — including one on America's 250th birthday.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_b169440c",
       "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
       "date": "2026-06-13",
@@ -303,6 +304,21 @@
       "end_date": "2026-07-04"
     },
     {
+      "id": "ev_f8aea28a",
+      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
+      "date": "2026-06-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_f6f6b098",
       "title": "Arc of Promiseat Woodmere",
       "date": "2026-06-20",
@@ -365,21 +381,6 @@
       "priority": 5
     },
     {
-      "id": "ev_c9c830bd",
-      "title": "250th Anniversary Celebrations at Esperanza Arts Center",
-      "date": "2026-06-24",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19140",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_15dae74a",
       "title": "Curaçao vs Ivory Coast",
       "date": "2026-06-25",
@@ -410,6 +411,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_82232efc",
+      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
+      "date": "2026-06-27",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19122",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": true,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_149a6ab7",
@@ -821,21 +837,6 @@
       "priority": 1
     },
     {
-      "id": "ev_219e420c",
-      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
-      "date": "2026-09-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_0751a12c",
       "title": "Some American Dreamsat The Fabric Workshop and Museum",
       "date": "2026-09-20",
@@ -866,6 +867,21 @@
       "priority": 1
     },
     {
+      "id": "ev_7379b86a",
+      "title": "Historic Germantown 2026",
+      "date": "2026-10-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_cfa6d557",
       "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
       "date": "2026-11-08",
@@ -892,21 +908,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_da9d1136",
-      "title": "Philadelphia Gay Men’s Chorus:British Invasionat the Independence Seaport Museum",
-      "date": "2026-12-04",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA, 19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The Philadelphia Gay Men's Chorus is proud to announce its 44th season!",
       "source": "visitphilly.com",
       "priority": 1
     },
