@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-12T14:12:24.265349+00:00",
-  "event_count": 62,
+  "scraped_at": "2026-06-13T12:28:28.924559+00:00",
+  "event_count": 65,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -240,6 +240,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_fa0364b1",
+      "title": "Franklinlandat Lantern Theater Company at St. Stephen's Theater",
+      "date": "2026-06-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9582,
+      "lng": -75.1736,
+      "cat": "festival",
+      "free": false,
+      "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing comedy of Revolutionary consequences, in the city whe",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_3df9b924",
@@ -776,6 +791,22 @@
       "priority": 1
     },
     {
+      "id": "ev_c3a89d4a",
+      "title": "Philadelphia Tennis Classic at University of Pennsylvania",
+      "date": "2026-08-23",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Ennoble Care Philly Open - A WTA 125 women's professional tennis tournament in Philadelphia, PA.",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-08-29"
+    },
+    {
       "id": "ev_e1a15d27",
       "title": "Illumination 250 Festival and Drone Show in Haverford Township",
       "date": "2026-08-29",
@@ -833,6 +864,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_219e420c",
+      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
+      "date": "2026-09-19",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
       "source": "visitphilly.com",
       "priority": 1
     },
