@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-13T12:28:28.924559+00:00",
-  "event_count": 65,
+  "scraped_at": "2026-06-14T13:01:23.674478+00:00",
+  "event_count": 60,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -180,37 +180,6 @@
       "priority": 5
     },
     {
-      "id": "ev_b169440c",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-06-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f5c20c30",
-      "title": "TED Democracy Philadelphia: Founding Futures at the Kimmel Center for the Performing Arts",
-      "date": "2026-06-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19102",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Visit Philadelphia and TED Democracy present a full day of brand-new TED Talks exploring the evolving story of modern democracy on June 13.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-13"
-    },
-    {
       "id": "ev_e119384e",
       "title": "Odunde Festival",
       "date": "2026-06-14",
@@ -253,6 +222,21 @@
       "cat": "festival",
       "free": false,
       "description": "Benjamin Franklin played many roles: publisher, inventor, political agitator, diplomat -- and he wanted his son to follow him into the sciences. When William rebels and becomes the Royal Governor of New Jersey, the stage is set for a father-son conflict of international proportions. Join us for the Philadelphia premiere of Lloyd Suh's endearing comedy of Revolutionary consequences, in the city whe",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_aab28e07",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-06-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -317,21 +301,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_f8aea28a",
-      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9582,
-      "lng": -75.1736,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_f6f6b098",
@@ -426,21 +395,6 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
-    },
-    {
-      "id": "ev_82232efc",
-      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
-      "date": "2026-06-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": true,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_149a6ab7",
@@ -868,21 +822,6 @@
       "priority": 1
     },
     {
-      "id": "ev_219e420c",
-      "title": "From Invisible to Invincible: Honoring the Art of Colorat Historic Strawberry Mansion",
-      "date": "2026-09-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA (January 28, 2026) Historic Strawberry Mansion, the largest Fairmount Park Historic House, located at 2450 Strawberry Mansion Drive, recognizes the 100",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Historic Strawberry Mansion recognizes 100th anniversary of 1926 Committee with Art Show September-November 2026: Honoring the Art of Color September 19 to November 8, 2026 Strawberry Mansion presents an exhibit titled \"From Invisible to Invincible: Honoring the Art of Color\" in recognition of the 100th Anniversary of its Committee of 1926. The exhibit is a celebration of artists who were not perm",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_0751a12c",
       "title": "Some American Dreamsat The Fabric Workshop and Museum",
       "date": "2026-09-20",
@@ -924,21 +863,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cfa6d557",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-11-08",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
