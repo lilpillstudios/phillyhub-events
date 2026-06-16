@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-15T16:20:54.909438+00:00",
-  "event_count": 58,
+  "scraped_at": "2026-06-16T15:57:39.477772+00:00",
+  "event_count": 59,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -164,6 +164,21 @@
       "priority": 5
     },
     {
+      "id": "ev_20c8e2ed",
+      "title": "Ring It On!",
+      "date": "2026-06-16",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Uplifting Philadelphia’s communities, cultures, and small businesses with activations, beautifications, and celebrations in 2026.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_209c802a",
       "title": "Mann Center 50th Anniversary Concert",
       "date": "2026-06-18",
@@ -224,36 +239,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_f8aea28a",
-      "title": "Pig Iron Theatre Company PresentsFranklin’s Keyat Plays & Players Theatre",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9582,
-      "lng": -75.1736,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f6f6b098",
-      "title": "Arc of Promiseat Woodmere",
-      "date": "2026-06-20",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "In celebration of America’s 250th anniversary, Arc of Promise explores how Philadelphia’s artists have envisioned “America” as an idea, from the nation’s founding to today.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_ada2ae2c",
@@ -470,6 +455,36 @@
       "description": "Nation's biggest July 4th event. Concert + fireworks.",
       "source": "city",
       "priority": 3
+    },
+    {
+      "id": "ev_f2ded6e2",
+      "title": "FIFA World Cup 26 and FIFA FanFestival",
+      "date": "2026-07-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "fifa",
+      "free": false,
+      "description": "The biggest sporting event in the world comes to Philly with a festival and six FIFA World Cup games — including one on America's 250th birthday.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_3ebc3c8f",
+      "title": "Valley Forge National Historical Park's 50th Birthday",
+      "date": "2026-07-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_f91b5dee",
