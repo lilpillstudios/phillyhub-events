@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-17T14:28:36.516921+00:00",
-  "event_count": 59,
+  "scraped_at": "2026-06-18T14:13:02.371142+00:00",
+  "event_count": 60,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -831,6 +831,21 @@
       "cat": "america250",
       "free": false,
       "description": "2026 is Philly's biggest year yet. And more than 30 Philly hotels are serving history for America’s 250th birthday …",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_7379b86a",
+      "title": "Historic Germantown 2026",
+      "date": "2026-10-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
       "source": "visitphilly.com",
       "priority": 1
     },
