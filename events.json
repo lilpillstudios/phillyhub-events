@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-18T14:13:02.371142+00:00",
-  "event_count": 60,
+  "scraped_at": "2026-06-19T14:15:02.173305+00:00",
+  "event_count": 58,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -116,22 +116,6 @@
       "end_date": "2026-08-02"
     },
     {
-      "id": "ev_d6df3dd3",
-      "title": "Highmark Mann Center for the Performing Arts 50th Anniversary Performance Series",
-      "date": "2026-06-04",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19131",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Highmark Mann Center for the Performing Arts celebrates its 50th anniversary — and the American semiquincentennial — with major performances.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-18"
-    },
-    {
       "id": "ev_997983f7",
       "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
       "date": "2026-06-05",
@@ -162,36 +146,6 @@
       "description": "5-week watch party festival. Up to 25K daily. Big screens, food, music.",
       "source": "hardcoded",
       "priority": 5
-    },
-    {
-      "id": "ev_209c802a",
-      "title": "Mann Center 50th Anniversary Concert",
-      "date": "2026-06-18",
-      "time": "7:00 PM",
-      "venue": "Highmark Mann Center",
-      "addr": "5201 Parkside Ave, Philadelphia, PA",
-      "lat": 39.977,
-      "lng": -75.2105,
-      "cat": "concert",
-      "free": false,
-      "description": "Philadelphia Orchestra commemorative concert celebrating the Mann Center's 50th anniversary and America's 250th. World premiere with The Crossing choir.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_24527e40",
-      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
-      "date": "2026-06-18",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9529,
-      "lng": -75.1446,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_43a236ab",
@@ -846,6 +800,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_5048e74a",
+      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
+      "date": "2026-10-31",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9529,
+      "lng": -75.1446,
+      "cat": "america250",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
