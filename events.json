@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-19T22:46:01.754559+00:00",
-  "event_count": 71,
+  "scraped_at": "2026-06-20T12:28:43.660308+00:00",
+  "event_count": 67,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -145,67 +145,6 @@
       "free": true,
       "description": "5-week watch party festival. Up to 25K daily. Big screens, food, music.",
       "source": "hardcoded",
-      "priority": 5
-    },
-    {
-      "id": "ev_fd7dd009",
-      "title": "Under the Stars 2026: TCB and FreeBlackMamas Hear Her Voice",
-      "date": "2026-06-19",
-      "time": "7:00 PM",
-      "venue": "The Bowl at Clark Park",
-      "addr": "4301 Baltimore Ave, Philadelphia, PA",
-      "lat": 39.9444,
-      "lng": -75.2228,
-      "cat": "arts",
-      "free": true,
-      "description": "Closing night of the 6th annual cinéSPEAK Under the Stars festival featuring the special engagement of TCB: The Toni Cade Bambara School of Organizing and the world premiere of FreeBlackMamas: Hear Her Voice. Community gathering with live music starts at 7PM, films screen at 9PM. After party at Dahlak Paradise.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_729c9fe6",
-      "title": "Juneteenth FIFA Celebration",
-      "date": "2026-06-19",
-      "time": "8:00 PM",
-      "venue": "Cira Green",
-      "addr": "30th St and Grays Ferry Ave, Philadelphia, PA",
-      "lat": 39.9522,
-      "lng": -75.1815,
-      "cat": "250th",
-      "free": false,
-      "description": "An evening of fellowship, reflection, and joy celebrating Black liberation, the African diaspora, and global Black identity while watching Haiti take on Brazil in the 2026 World Cup. Drinks, BBQ, and live entertainment.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_fe986f76",
-      "title": "Rhythm Nation",
-      "date": "2026-06-19",
-      "time": "9:00 PM",
-      "venue": "9 W Wildey St",
-      "addr": "9 W Wildey St, Philadelphia, PA",
-      "lat": 39.9639,
-      "lng": -75.1398,
-      "cat": "nightlife",
-      "free": false,
-      "description": "A soulful multi-genre dance party inspired by rhythm, culture, and the movement of dance music.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_43a236ab",
-      "title": "Brazil vs Haiti",
-      "date": "2026-06-19",
-      "time": "9:00 PM",
-      "venue": "Philadelphia Stadium (Lincoln Financial Field)",
-      "addr": "1 Lincoln Financial Field Way",
-      "lat": 39.906,
-      "lng": -75.168,
-      "cat": "fifa",
-      "free": false,
-      "description": "Group C. Brazil's first match.",
-      "source": "hardcoded",
-      "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
     },
     {
