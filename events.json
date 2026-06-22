@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-21T13:09:24.888665+00:00",
-  "event_count": 59,
+  "scraped_at": "2026-06-22T15:55:18.235515+00:00",
+  "event_count": 55,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -162,67 +162,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_c35d762d",
-      "title": "Interna$hional Bounce Juneteenth Festival",
-      "date": "2026-06-21",
-      "time": "12:00 PM",
-      "venue": "301 S Christopher Columbus Blvd",
-      "addr": "301 S Christopher Columbus Blvd, Philadelphia, PA",
-      "lat": 39.9412,
-      "lng": -75.1378,
-      "cat": "250th",
-      "free": false,
-      "description": "Philly's favorite DJs, live performances, food vendors, cultural experiences, art, dancing, and love at the waterfront.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_e9a7c0e6",
-      "title": "Juneteenth Parade and Festival",
-      "date": "2026-06-21",
-      "time": "11:00 AM",
-      "venue": "Malcolm X Park",
-      "addr": "5100 Pine St, Philadelphia, PA",
-      "lat": 39.9456,
-      "lng": -75.2228,
-      "cat": "250th",
-      "free": true,
-      "description": "Celebrate African American freedom and heritage with a parade through West Philadelphia, a vendor marketplace, a music festival, and more.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_ada2ae2c",
-      "title": "Juneteenth Parade & Festival",
-      "date": "2026-06-21",
-      "time": "10:00 AM",
-      "venue": "Malcolm X Park",
-      "addr": "Pine St & 52nd St",
-      "lat": 39.957,
-      "lng": -75.159,
-      "cat": "parade",
-      "free": true,
-      "description": "Music, dance, food, celebration of freedom.",
-      "source": "city",
-      "priority": 3
-    },
-    {
-      "id": "ev_720a0c16",
-      "title": "Philadelphia Juneteenth Parade & Festival",
-      "date": "2026-06-21",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19143",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": true,
-      "description": "Celebrate freedom, community and culture in Philadelphia at one of the largest daylong Juneteenth celebrations in the country.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-06-21"
     },
     {
       "id": "ev_49b6ee7e",
