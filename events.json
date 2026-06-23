@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-22T15:55:18.235515+00:00",
+  "scraped_at": "2026-06-23T13:45:12.490801+00:00",
   "event_count": 55,
   "events": [
     {
@@ -164,20 +164,19 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_49b6ee7e",
-      "title": "France vs Playoff Winner",
-      "date": "2026-06-22",
-      "time": "5:00 PM",
-      "venue": "Philadelphia Stadium (Lincoln Financial Field)",
-      "addr": "1 Lincoln Financial Field Way",
-      "lat": 39.906,
-      "lng": -75.168,
-      "cat": "fifa",
+      "id": "ev_f7d38aa0",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-06-23",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
       "free": false,
-      "description": "Group I. France faces the playoff winner.",
-      "source": "hardcoded",
-      "ticketUrl": "https://www.fifa.com/tickets",
-      "priority": 5
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_15dae74a",
@@ -196,17 +195,17 @@
       "priority": 5
     },
     {
-      "id": "ev_e7859f33",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "id": "ev_49c2e168",
+      "title": "America 250 Weekend on the Delaware River Waterfront",
       "date": "2026-06-26",
       "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
+      "venue": "$(function() {\n      new AposGoogleMap([{\"_id\":\"726280423851880452\"",
+      "addr": "$(function() {\n      new AposGoogleMap([{\"_id\":\"726280423851880452\",\"title\":\"Independence Blue Cross RiverRink Summerfest\",\"seoDescription\":\"Independence Blue Cross RiverRink │Delaware River Waterfron",
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
+      "description": "Events │Delaware River Waterfront",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -379,14 +378,29 @@
       "priority": 3
     },
     {
-      "id": "ev_f2ded6e2",
-      "title": "FIFA World Cup 26 and FIFA FanFestival",
+      "id": "ev_5517f9f1",
+      "title": "FIFA World Cup 26",
       "date": "2026-07-04",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "",
       "lat": 39.9524,
       "lng": -75.1636,
+      "cat": "fifa",
+      "free": false,
+      "description": "The biggest sporting event in the world comes to Philly with a festival and six FIFA World Cup games — including one on America's 250th birthday.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f64bfa6d",
+      "title": "FIFA Fan Festival at Lemon Hill",
+      "date": "2026-07-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9715,
+      "lng": -75.183,
       "cat": "fifa",
       "free": false,
       "description": "The biggest sporting event in the world comes to Philly with a festival and six FIFA World Cup games — including one on America's 250th birthday.",
@@ -753,21 +767,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_5048e74a",
-      "title": "Flag Fest at the Betsy Ross House: Celebrating 250 Years of the American Flag",
-      "date": "2026-10-31",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9529,
-      "lng": -75.1446,
-      "cat": "america250",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
