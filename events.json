@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-23T13:45:12.490801+00:00",
-  "event_count": 55,
+  "scraped_at": "2026-06-24T13:25:10.628543+00:00",
+  "event_count": 54,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -116,22 +116,6 @@
       "end_date": "2026-08-02"
     },
     {
-      "id": "ev_997983f7",
-      "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
-      "date": "2026-06-05",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19102",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-08-16"
-    },
-    {
       "id": "ev_f9b69a49",
       "title": "Soccer Fan Festival at Lemon Hill",
       "date": "2026-06-11",
@@ -164,21 +148,6 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_f7d38aa0",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-06-23",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_15dae74a",
       "title": "Curaçao vs Ivory Coast",
       "date": "2026-06-25",
@@ -193,6 +162,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_e7859f33",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-06-26",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_49c2e168",
@@ -239,21 +223,6 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
-    },
-    {
-      "id": "ev_82232efc",
-      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
-      "date": "2026-06-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": true,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_96d02bb9",
@@ -645,6 +614,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f8a12b2d",
+      "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
+      "date": "2026-08-16",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9534,
+      "lng": -75.1501,
+      "cat": "festival",
+      "free": false,
+      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
       "source": "visitphilly.com",
       "priority": 1
     },
