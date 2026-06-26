@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-25T13:22:26.492265+00:00",
-  "event_count": 54,
+  "scraped_at": "2026-06-26T13:14:55.298282+00:00",
+  "event_count": 55,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -148,22 +148,6 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_15dae74a",
-      "title": "Curaçao vs Ivory Coast",
-      "date": "2026-06-25",
-      "time": "4:00 PM",
-      "venue": "Philadelphia Stadium (Lincoln Financial Field)",
-      "addr": "1 Lincoln Financial Field Way",
-      "lat": 39.906,
-      "lng": -75.168,
-      "cat": "fifa",
-      "free": false,
-      "description": "Group E final matchday.",
-      "source": "hardcoded",
-      "ticketUrl": "https://www.fifa.com/tickets",
-      "priority": 5
-    },
-    {
       "id": "ev_e7859f33",
       "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
       "date": "2026-06-26",
@@ -223,6 +207,21 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
+    },
+    {
+      "id": "ev_82232efc",
+      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
+      "date": "2026-06-27",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19122",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": true,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_96d02bb9",
@@ -721,6 +720,21 @@
       "cat": "festival",
       "free": false,
       "description": "Learn more about The Fabric Workshop and Museum (FWM), including our mission, history, Board of Directors and our Artist Advisory Committee.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_7adaa5dc",
+      "title": "FloatLab at Bartram’s Garden",
+      "date": "2026-09-20",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "​​FloatLab, a first-of-its-kind experience in the U.S., brings Bartram's Garden visitors up close with the ecological wonderland of the Schuylkill River.",
       "source": "visitphilly.com",
       "priority": 1
     },
