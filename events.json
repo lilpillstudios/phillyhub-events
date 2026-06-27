@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-26T13:14:55.298282+00:00",
-  "event_count": 55,
+  "scraped_at": "2026-06-27T12:11:22.288787+00:00",
+  "event_count": 52,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -148,36 +148,6 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_e7859f33",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-06-26",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_49c2e168",
-      "title": "America 250 Weekend on the Delaware River Waterfront",
-      "date": "2026-06-26",
-      "time": "Various",
-      "venue": "$(function() {\n      new AposGoogleMap([{\"_id\":\"726280423851880452\"",
-      "addr": "$(function() {\n      new AposGoogleMap([{\"_id\":\"726280423851880452\",\"title\":\"Independence Blue Cross RiverRink Summerfest\",\"seoDescription\":\"Independence Blue Cross RiverRink │Delaware River Waterfron",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Events │Delaware River Waterfront",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_51e71d35",
       "title": "Culture Fest",
       "date": "2026-06-27",
@@ -207,21 +177,6 @@
       "source": "hardcoded",
       "ticketUrl": "https://www.fifa.com/tickets",
       "priority": 5
-    },
-    {
-      "id": "ev_82232efc",
-      "title": "How We Stay Freeat TILT Institute for the Contemporary Image",
-      "date": "2026-06-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": true,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_96d02bb9",
@@ -432,6 +387,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f5382352",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-07-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -705,21 +675,6 @@
       "cat": "america250",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_0751a12c",
-      "title": "Some American Dreamsat The Fabric Workshop and Museum",
-      "date": "2026-09-20",
-      "time": "Various",
-      "venue": "1214 Arch Street",
-      "addr": "1214 Arch Street, Philadelphia, PA 19107",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Learn more about The Fabric Workshop and Museum (FWM), including our mission, history, Board of Directors and our Artist Advisory Committee.",
       "source": "visitphilly.com",
       "priority": 1
     },
