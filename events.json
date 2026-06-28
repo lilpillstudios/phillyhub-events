@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-27T12:11:22.288787+00:00",
-  "event_count": 52,
+  "scraped_at": "2026-06-28T12:18:59.876528+00:00",
+  "event_count": 50,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -146,37 +146,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_51e71d35",
-      "title": "Culture Fest",
-      "date": "2026-06-27",
-      "time": "3:00 PM",
-      "venue": "Liberty Point",
-      "addr": "Philadelphia, PA",
-      "lat": 39.9526,
-      "lng": -75.1652,
-      "cat": "arts",
-      "free": false,
-      "description": "Music, food, culture, art, and community at Liberty Point. Presented by Kabila Events.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_3a60006e",
-      "title": "Croatia vs Ghana",
-      "date": "2026-06-27",
-      "time": "5:00 PM",
-      "venue": "Philadelphia Stadium (Lincoln Financial Field)",
-      "addr": "1 Lincoln Financial Field Way",
-      "lat": 39.906,
-      "lng": -75.168,
-      "cat": "fifa",
-      "free": false,
-      "description": "Group L. Last group stage in Philadelphia.",
-      "source": "hardcoded",
-      "ticketUrl": "https://www.fifa.com/tickets",
-      "priority": 5
     },
     {
       "id": "ev_96d02bb9",
