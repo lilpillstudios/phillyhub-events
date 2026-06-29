@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-06-28T12:18:59.876528+00:00",
-  "event_count": 50,
+  "scraped_at": "2026-06-29T14:49:35.239370+00:00",
+  "event_count": 48,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -146,36 +146,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_96d02bb9",
-      "title": "Africatown Diaspora Festival and PHL250 Celebration",
-      "date": "2026-06-28",
-      "time": "12:00 PM",
-      "venue": "Woodland Ave",
-      "addr": "5900 Woodland Ave, Philadelphia, PA",
-      "lat": 39.9312,
-      "lng": -75.2198,
-      "cat": "250th",
-      "free": true,
-      "description": "Live music from African, Caribbean and African American artists, cultural merchandise and food vendors celebrating the diaspora and Philadelphia's 250th anniversary. Presented by ACANA on the 5900 to 6500 block of Woodland Ave.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_149a6ab7",
-      "title": "Red, White & Blue To-Do",
-      "date": "2026-06-28",
-      "time": "All Day",
-      "venue": "Historic District",
-      "addr": "Independence Mall",
-      "lat": 39.9489,
-      "lng": -75.15,
-      "cat": "america250",
-      "free": true,
-      "description": "Parades, concerts in America's most historic square mile.",
-      "source": "city",
-      "priority": 3
     },
     {
       "id": "ev_ce272c11",
