@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-01T13:36:23.116916+00:00",
-  "event_count": 47,
+  "scraped_at": "2026-07-02T13:00:22.522710+00:00",
+  "event_count": 46,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -148,36 +148,6 @@
       "end_date": "2026-07-04"
     },
     {
-      "id": "ev_7c05d5a0",
-      "title": "New Exhibits at the First Bank of the United States",
-      "date": "2026-07-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The historic building reopens in Philadelphia as a museum exploring the origins of banking in the United States.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_6c373574",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-07-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_ca7539b5",
       "title": "Red, White & Blue To-Do",
       "date": "2026-07-02",
@@ -281,6 +251,21 @@
       "cat": "fifa",
       "free": false,
       "description": "The biggest sporting event in the world comes to Philly with a festival and six FIFA World Cup games — including one on America's 250th birthday.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fb5616ac",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-07-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
