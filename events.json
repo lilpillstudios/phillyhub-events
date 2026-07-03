@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-02T13:00:22.522710+00:00",
-  "event_count": 46,
+  "scraped_at": "2026-07-03T12:58:20.630979+00:00",
+  "event_count": 45,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -84,22 +84,6 @@
       "end_date": "2026-09-01"
     },
     {
-      "id": "ev_1060f6c6",
-      "title": "ArtPhillyWhat Now: 2026",
-      "date": "2026-05-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "The inaugural ArtPhilly: What Now: 2026 festival brings 30-plus exhibitions, performances and art programs to areas throughout Philadelphia.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-07-02"
-    },
-    {
       "id": "ev_d051edb9",
       "title": "Chinese Lantern Festival",
       "date": "2026-06-04",
@@ -146,22 +130,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_ca7539b5",
-      "title": "Red, White & Blue To-Do",
-      "date": "2026-07-02",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fireworks",
-      "free": false,
-      "description": "Celebrate Independence Day early with concerts, games, restaurant specials, and more during a day of pomp and parade on July 2.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-07-02"
     },
     {
       "id": "ev_da82ec4f",
@@ -447,6 +415,21 @@
       "cat": "festival",
       "free": false,
       "description": "Discover the Philadelphia Museum of Art, home to renowned art collections, groundbreaking exhibitions, and a legacy of creativity and innovation.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_02c29c70",
+      "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
+      "date": "2026-08-02",
+      "time": "Various",
+      "venue": "5600 City Ave. Philadelphia",
+      "addr": "5600 City Ave. Philadelphia, PA 19131",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
       "source": "visitphilly.com",
       "priority": 1
     },
