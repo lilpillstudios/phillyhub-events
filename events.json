@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-03T12:58:20.630979+00:00",
-  "event_count": 45,
+  "scraped_at": "2026-07-04T12:09:19.993046+00:00",
+  "event_count": 43,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -130,36 +130,6 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-07-04"
-    },
-    {
-      "id": "ev_da82ec4f",
-      "title": "2026 Programs at Founder’s Hall Museum",
-      "date": "2026-07-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19121",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cb27893b",
-      "title": "America Celebrates 250 in New Hope",
-      "date": "2026-07-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "fireworks",
-      "free": false,
-      "description": "Discover America Celebrates Events, including the America 250 celebration with engaging educational discussions and festive Independence Day events.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_d4d62280",
