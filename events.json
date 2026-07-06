@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-05T12:19:08.201421+00:00",
-  "event_count": 35,
+  "scraped_at": "2026-07-06T14:28:54.131700+00:00",
+  "event_count": 34,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -116,24 +116,9 @@
       "priority": 5
     },
     {
-      "id": "ev_029cd81e",
-      "title": "Radical Americanafrom The Clay Studio",
-      "date": "2026-07-05",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19122",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f5382352",
+      "id": "ev_4550b514",
       "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-07-05",
+      "date": "2026-07-06",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19118",
