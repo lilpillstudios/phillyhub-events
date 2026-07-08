@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-07T13:23:35.549450+00:00",
+  "scraped_at": "2026-07-08T12:23:25.796890+00:00",
   "event_count": 34,
   "events": [
     {
@@ -116,36 +116,6 @@
       "priority": 5
     },
     {
-      "id": "ev_8c629e84",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-07-07",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_74798e42",
-      "title": "America's 250th Birthday Sing-Along at Rittenhouse Grill",
-      "date": "2026-07-07",
-      "time": "Various",
-      "venue": "1701 Locust St. Philadelphia",
-      "addr": "1701 Locust St. Philadelphia, PA 19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_84bddf5e",
       "title": "Major League Baseball All-Star Game and All-Star Week",
       "date": "2026-07-10",
@@ -233,6 +203,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_ec084080",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-08-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -400,6 +385,21 @@
       "cat": "festival",
       "free": false,
       "description": "Explore 10 highlights from this groundbreaking dual-location exhibition, celebrating American creativity with works by iconic and underrepresented artists.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_5cbd2561",
+      "title": "250th Anniversary Exhibitions at the Mütter Museum",
+      "date": "2026-09-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19103",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
       "source": "visitphilly.com",
       "priority": 1
     },
