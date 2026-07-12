@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-11T11:54:41.683946+00:00",
-  "event_count": 34,
+  "scraped_at": "2026-07-12T12:01:53.808706+00:00",
+  "event_count": 33,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -130,36 +130,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2026-07-14"
-    },
-    {
-      "id": "ev_5f8de24e",
-      "title": "Benjamin Franklin Bridge 100th Anniversary Celebration",
-      "date": "2026-07-11",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.963,
-      "lng": -75.175,
-      "cat": "america250",
-      "free": false,
-      "description": "Since opening in 1926, the Ben Franklin Bridge has served as a vital link between Philadelphia and Camden, connecting millions of people across the Delaware River each year. Once the longest suspension bridge in the world, it remains an enduring symbol of engineering innovation and regional pride. A century later, the bridge continues to move our communities forward.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_b5f147e5",
-      "title": "Philly Phlotilla on the Schuylkill River & Delaware River",
-      "date": "2026-07-11",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9459,
-      "lng": -75.1416,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_d3d39ff6",
@@ -412,6 +382,21 @@
       "addr": "",
       "lat": 39.9524,
       "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_32707c28",
+      "title": "Philly Phlotilla on the Schuylkill River & Delaware River",
+      "date": "2026-09-19",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9459,
+      "lng": -75.1416,
       "cat": "america250",
       "free": false,
       "description": "",
