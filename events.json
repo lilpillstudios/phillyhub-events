@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-13T13:25:46.911003+00:00",
-  "event_count": 33,
+  "scraped_at": "2026-07-14T12:15:22.884766+00:00",
+  "event_count": 32,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -98,22 +98,6 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-08-02"
-    },
-    {
-      "id": "ev_f9b69a49",
-      "title": "Soccer Fan Festival at Lemon Hill",
-      "date": "2026-06-11",
-      "end_date": "2026-07-13",
-      "time": "All Day",
-      "venue": "Lemon Hill, Fairmount Park",
-      "addr": "Sedgley Dr, Fairmount Park",
-      "lat": 39.9715,
-      "lng": -75.183,
-      "cat": "fifa",
-      "free": true,
-      "description": "5-week watch party festival. Up to 25K daily. Big screens, food, music.",
-      "source": "hardcoded",
-      "priority": 5
     },
     {
       "id": "ev_84bddf5e",
@@ -369,7 +353,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The Mütter Museum helps the public appreciate the mysteries and beauty of the human body while understanding the history of diagnosis and treatment of disease.",
+      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
       "source": "visitphilly.com",
       "priority": 1
     },
