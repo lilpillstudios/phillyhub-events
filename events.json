@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-14T12:15:22.884766+00:00",
-  "event_count": 32,
+  "scraped_at": "2026-07-15T12:17:47.308626+00:00",
+  "event_count": 29,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,35 +100,19 @@
       "end_date": "2026-08-02"
     },
     {
-      "id": "ev_84bddf5e",
-      "title": "Major League Baseball All-Star Game and All-Star Week",
-      "date": "2026-07-10",
+      "id": "ev_0fff36ca",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-07-15",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19148",
+      "addr": "Philadelphia, PA 19118",
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The biggest stars in Major Leage Baseball take to the field at Citizens Bank Park in 2026, just in time for America's 250th birthday celebrations.",
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-07-14"
-    },
-    {
-      "id": "ev_d3d39ff6",
-      "title": "MLB All-Star Game",
-      "date": "2026-07-14",
-      "time": "7:00 PM",
-      "venue": "Citizens Bank Park",
-      "addr": "1 Citizens Bank Way",
-      "lat": 39.9061,
-      "lng": -75.1665,
-      "cat": "concert",
-      "free": false,
-      "description": "Baseball returns to Philly for the first time in 30 years.",
-      "source": "city",
-      "priority": 3
+      "priority": 1
     },
     {
       "id": "ev_e51394c2",
@@ -172,21 +156,6 @@
       "cat": "festival",
       "free": false,
       "description": "Before Elvis, Jagger and Springsteen there was… Franklin! A new rock musical at FringeArts, Philadelphia. July 1 – August 1, 2026.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_ec084080",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-08-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -429,21 +398,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cfa6d557",
-      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
-      "date": "2026-11-08",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
