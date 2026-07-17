@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-16T12:21:56.805953+00:00",
-  "event_count": 31,
+  "scraped_at": "2026-07-17T12:11:42.171775+00:00",
+  "event_count": 30,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -100,6 +100,21 @@
       "end_date": "2026-08-02"
     },
     {
+      "id": "ev_8dc71713",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-07-17",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_e51394c2",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
       "date": "2026-07-19",
@@ -141,21 +156,6 @@
       "cat": "festival",
       "free": false,
       "description": "Before Elvis, Jagger and Springsteen there was… Franklin! A new rock musical at FringeArts, Philadelphia. July 1 – August 1, 2026.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_ec084080",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-08-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -353,21 +353,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_32707c28",
-      "title": "Philly Phlotilla on the Schuylkill River & Delaware River",
-      "date": "2026-09-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9459,
-      "lng": -75.1416,
-      "cat": "america250",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
