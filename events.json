@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-19T12:01:26.502795+00:00",
-  "event_count": 30,
+  "scraped_at": "2026-07-20T13:08:52.965313+00:00",
+  "event_count": 29,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -98,21 +98,6 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-08-02"
-    },
-    {
-      "id": "ev_e51394c2",
-      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-07-19",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Here's what to expect at the Independence Seaport Museum, an interactive attraction exploring Philadelphia’s maritime heritage.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_fc623c2d",
