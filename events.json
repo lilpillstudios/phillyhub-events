@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-21T12:25:38.094799+00:00",
+  "scraped_at": "2026-07-22T12:27:21.656699+00:00",
   "event_count": 31,
   "events": [
     {
@@ -100,21 +100,6 @@
       "end_date": "2026-08-02"
     },
     {
-      "id": "ev_46a298ea",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-07-21",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_fc623c2d",
       "title": "America Today: Voices in Contemporary Printat The Print Center",
       "date": "2026-07-25",
@@ -141,6 +126,21 @@
       "cat": "festival",
       "free": false,
       "description": "Before Elvis, Jagger and Springsteen there was… Franklin! A new rock musical at FringeArts, Philadelphia. July 1 – August 1, 2026.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_ec084080",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-08-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -322,7 +322,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
+      "description": "The Mütter Museum helps the public appreciate the mysteries and beauty of the human body while understanding the history of diagnosis and treatment of disease.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -362,7 +362,7 @@
       "date": "2026-09-20",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "Philadelphia, PA",
+      "addr": "Philadelphia, PA 19143",
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "festival",
