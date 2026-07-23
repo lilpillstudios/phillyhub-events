@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-22T12:27:21.656699+00:00",
-  "event_count": 31,
+  "scraped_at": "2026-07-23T12:26:11.982695+00:00",
+  "event_count": 30,
   "events": [
     {
       "id": "ev_ffcd909e",
@@ -216,21 +216,6 @@
       "cat": "concert",
       "free": false,
       "description": "Merion Golf Club",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_237b8a83",
-      "title": "UFC 330 at Xfinity Mobile Arena",
-      "date": "2026-08-15",
-      "time": "Various",
-      "venue": "– UFC announced today it will return to Philadelphia",
-      "addr": "– UFC announced today it will return to Philadelphia, PA on Saturday, August 15 for",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
