@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-28T12:56:23.482471+00:00",
-  "event_count": 29,
+  "scraped_at": "2026-07-29T13:02:53.011751+00:00",
+  "event_count": 30,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -50,6 +50,22 @@
       "source": "city",
       "priority": 3,
       "end_date": "2026-09-05"
+    },
+    {
+      "id": "ev_e8fc774b",
+      "title": "The Doan Gang: Outlaws of the Revolutionat the Mercer Museum",
+      "date": "2026-05-04",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9483,
+      "lng": -75.1464,
+      "cat": "festival",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-12-31"
     },
     {
       "id": "ev_3b36aa14",
