@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-07-29T13:02:53.011751+00:00",
+  "scraped_at": "2026-07-30T12:46:31.199673+00:00",
   "event_count": 30,
   "events": [
     {
@@ -372,9 +372,9 @@
       "priority": 1
     },
     {
-      "id": "ev_41c23440",
+      "id": "ev_f08dede2",
       "title": "DesignPhiladelphia Festival",
-      "date": "2026-10-11",
+      "date": "2026-10-01",
       "time": "Various",
       "venue": "var APPPATH_URI = \"/system/cms/\";\n                        var SITE_URL = \"https://designphiladelphia.org/\";\n                        var BASE_URL = \"ht",
       "addr": "var APPPATH_URI = \"/system/cms/\";\n                        var SITE_URL = \"https://designphiladelphia.org/\";\n                        var BASE_URL = \"https://designphiladelphia.org/\";\n                  ",
