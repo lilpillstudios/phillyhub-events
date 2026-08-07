@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-06T12:58:58.508302+00:00",
-  "event_count": 25,
+  "scraped_at": "2026-08-07T11:47:36.902351+00:00",
+  "event_count": 26,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -125,6 +125,21 @@
       "cat": "concert",
       "free": false,
       "description": "Merion Golf Club",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_6e8890ea",
+      "title": "Pop-up Plaza Opens at Reading Terminal Market",
+      "date": "2026-08-15",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Upcoming Philadelphia Event - Welcome to The Plaza, Presented by Jefferson More space. More fun. More summer. The Plaza extends the Market experience outdoors with additional seating,",
       "source": "visitphilly.com",
       "priority": 1
     },
