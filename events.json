@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-07T11:47:36.902351+00:00",
+  "scraped_at": "2026-08-08T11:31:12.962915+00:00",
   "event_count": 26,
   "events": [
     {
@@ -246,7 +246,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The Mütter Museum helps the public appreciate the mysteries and beauty of the human body while understanding the history of diagnosis and treatment of disease.",
+      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
       "source": "visitphilly.com",
       "priority": 1
     },
