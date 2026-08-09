@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-08T11:31:12.962915+00:00",
-  "event_count": 26,
+  "scraped_at": "2026-08-09T11:31:05.500957+00:00",
+  "event_count": 25,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -82,21 +82,6 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-09-01"
-    },
-    {
-      "id": "ev_495a7cb3",
-      "title": "America’s 250th Celebration in Newtown",
-      "date": "2026-08-08",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_db72042b",
