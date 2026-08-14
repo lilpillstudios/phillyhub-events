@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-13T11:49:13.571261+00:00",
-  "event_count": 24,
+  "scraped_at": "2026-08-14T11:45:25.858509+00:00",
+  "event_count": 23,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -84,21 +84,6 @@
       "end_date": "2026-09-01"
     },
     {
-      "id": "ev_34e2d32f",
-      "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
-      "date": "2026-08-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": true,
-      "description": "The Forgotten Freedom: American Assembly at 250 is an immersive exhibition series tracing freedom of assembly from 1776 to today and beyond.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_6e8890ea",
       "title": "Pop-up Plaza Opens at Reading Terminal Market",
       "date": "2026-08-15",
@@ -129,23 +114,8 @@
       "priority": 1
     },
     {
-      "id": "ev_f8a12b2d",
-      "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
-      "date": "2026-08-16",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9534,
-      "lng": -75.1501,
-      "cat": "festival",
-      "free": false,
-      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_c3a89d4a",
-      "title": "Philadelphia Tennis Classic at University of Pennsylvania",
+      "id": "ev_7cf8c731",
+      "title": "Ennoble Care Philly Open at the University of Pennsylvania",
       "date": "2026-08-23",
       "time": "Various",
       "venue": "Philadelphia",
@@ -189,6 +159,21 @@
       "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
       "source": "manual",
       "priority": 10
+    },
+    {
+      "id": "ev_e385ba35",
+      "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
+      "date": "2026-08-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9534,
+      "lng": -75.1501,
+      "cat": "festival",
+      "free": false,
+      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_0768d0e6",
