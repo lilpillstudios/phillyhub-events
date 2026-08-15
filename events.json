@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-14T11:45:25.858509+00:00",
-  "event_count": 23,
+  "scraped_at": "2026-08-15T11:22:23.387451+00:00",
+  "event_count": 24,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -307,6 +307,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_6d6436b6",
+      "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
+      "date": "2026-12-13",
+      "time": "Various",
+      "venue": "5600 City Ave. Philadelphia",
+      "addr": "5600 City Ave. Philadelphia, PA 19131",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
       "source": "visitphilly.com",
       "priority": 1
     },
