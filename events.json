@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-21T11:28:02.225512+00:00",
-  "event_count": 21,
+  "scraped_at": "2026-08-22T11:22:27.565255+00:00",
+  "event_count": 22,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -247,6 +247,21 @@
       "cat": "america250",
       "free": false,
       "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_cfa6d557",
+      "title": "12th Annual Philadelphia Veterans Day Parade and Festival",
+      "date": "2026-11-08",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
