@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-28T21:21:01.706004+00:00",
-  "event_count": 22,
+  "scraped_at": "2026-08-29T15:33:02.436920+00:00",
+  "event_count": 23,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -157,6 +157,21 @@
       "cat": "festival",
       "free": false,
       "description": "Explore 10 highlights from this groundbreaking dual-location exhibition, celebrating American creativity with works by iconic and underrepresented artists.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fce58cf1",
+      "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
+      "date": "2026-08-31",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": true,
+      "description": "The Forgotten Freedom: American Assembly at 250 is an immersive exhibition series tracing freedom of assembly from 1776 to today and beyond.",
       "source": "visitphilly.com",
       "priority": 1
     },
