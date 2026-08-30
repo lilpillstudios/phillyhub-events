@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-29T15:33:02.436920+00:00",
-  "event_count": 23,
+  "scraped_at": "2026-08-30T15:12:44.696710+00:00",
+  "event_count": 21,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -82,38 +82,6 @@
       "source": "manual",
       "priority": 10,
       "end_date": "2026-09-01"
-    },
-    {
-      "id": "ev_7cf8c731",
-      "title": "Ennoble Care Philly Open at the University of Pennsylvania",
-      "date": "2026-08-23",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Ennoble Care Philly Open - A WTA 125 women's professional tennis tournament in Philadelphia, PA.",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-08-29"
-    },
-    {
-      "id": "ev_e1a15d27",
-      "title": "Illumination 250 Festival and Drone Show in Haverford Township",
-      "date": "2026-08-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "ILLUMINATION 250 Festival presented by Visit Delco - America250PADelco",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2026-08-29"
     },
     {
       "id": "ev_8e5cb090",
