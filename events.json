@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-30T15:12:44.696710+00:00",
-  "event_count": 21,
+  "scraped_at": "2026-08-31T17:57:20.329681+00:00",
+  "event_count": 19,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -84,36 +84,6 @@
       "end_date": "2026-09-01"
     },
     {
-      "id": "ev_8e5cb090",
-      "title": "Philadelphia Cycling Classic",
-      "date": "2026-08-30",
-      "time": "All Day",
-      "venue": "Logan Square / Kelly Drive / Manayunk",
-      "addr": "Benjamin Franklin Parkway, Philadelphia, PA",
-      "lat": 39.9571,
-      "lng": -75.1709,
-      "cat": "concert",
-      "free": true,
-      "description": "Major cycling race returns after hiatus. Route hits Kelly Drive, Strawberry Mansion, Lemon Hill, and the legendary Manayunk Wall.",
-      "source": "manual",
-      "priority": 10
-    },
-    {
-      "id": "ev_e385ba35",
-      "title": "Philadelphia Chinese Lantern Festival in Franklin Square",
-      "date": "2026-08-30",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9534,
-      "lng": -75.1501,
-      "cat": "festival",
-      "free": false,
-      "description": "This illuminated outdoor fest lights up the night at Franklin Square with dozens of larger-than-life lanterns — and new additions for 2026.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_0768d0e6",
       "title": "A Nation of Artistsat the Philadelphia Museum of Art and Pennsylvania Academy of Fine Arts",
       "date": "2026-08-31",
@@ -129,21 +99,6 @@
       "priority": 1
     },
     {
-      "id": "ev_fce58cf1",
-      "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
-      "date": "2026-08-31",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": true,
-      "description": "The Forgotten Freedom: American Assembly at 250 is an immersive exhibition series tracing freedom of assembly from 1776 to today and beyond.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_f4f546c0",
       "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
       "date": "2026-08-31",
@@ -155,6 +110,21 @@
       "cat": "america250",
       "free": false,
       "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_e0964fce",
+      "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
+      "date": "2026-09-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": true,
+      "description": "The Forgotten Freedom: American Assembly at 250 is an immersive exhibition series tracing freedom of assembly from 1776 to today and beyond.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -229,7 +199,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
