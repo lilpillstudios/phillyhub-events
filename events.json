@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-08-31T17:57:20.329681+00:00",
-  "event_count": 19,
+  "scraped_at": "2026-09-01T15:26:09.466988+00:00",
+  "event_count": 16,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -84,36 +84,6 @@
       "end_date": "2026-09-01"
     },
     {
-      "id": "ev_0768d0e6",
-      "title": "A Nation of Artistsat the Philadelphia Museum of Art and Pennsylvania Academy of Fine Arts",
-      "date": "2026-08-31",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9656,
-      "lng": -75.181,
-      "cat": "festival",
-      "free": false,
-      "description": "Explore 10 highlights from this groundbreaking dual-location exhibition, celebrating American creativity with works by iconic and underrepresented artists.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f4f546c0",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-08-31",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_e0964fce",
       "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
       "date": "2026-09-01",
@@ -129,17 +99,17 @@
       "priority": 1
     },
     {
-      "id": "ev_fa52fdb9",
-      "title": "Once Upon a Nation",
-      "date": "2026-09-05",
+      "id": "ev_c0a425fb",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-09-04",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "",
+      "addr": "Philadelphia, PA 19118",
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "",
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -213,21 +183,6 @@
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "parade",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_fe3f97f5",
-      "title": "Revolutionary Family: The Biddles & American Independenceat Andalusia Historic House, Gardens & Arboretum",
-      "date": "2026-11-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
       "free": false,
       "description": "",
       "source": "visitphilly.com",
