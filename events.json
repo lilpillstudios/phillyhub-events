@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-01T15:26:09.466988+00:00",
-  "event_count": 16,
+  "scraped_at": "2026-09-02T15:01:16.433030+00:00",
+  "event_count": 18,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -68,25 +68,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_3b36aa14",
-      "title": "RiverRink Summerfest",
-      "date": "2026-05-23",
-      "time": "Daily",
-      "venue": "Delaware River Waterfront",
-      "addr": "101 S Columbus Blvd, Philadelphia, PA",
-      "lat": 39.9459,
-      "lng": -75.1416,
-      "cat": "festival",
-      "free": true,
-      "description": "Rides, roller skating, arcade games, minigolf on the waterfront. Free admission, pay-as-you-go activities. Memorial Day through Labor Day.",
-      "source": "manual",
-      "priority": 10,
-      "end_date": "2026-09-01"
-    },
-    {
-      "id": "ev_e0964fce",
+      "id": "ev_7a202291",
       "title": "The Forgotten Freedom: American Assembly at 250at the National Liberty Museum",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -114,6 +98,21 @@
       "priority": 1
     },
     {
+      "id": "ev_fa52fdb9",
+      "title": "Once Upon a Nation",
+      "date": "2026-09-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_618c98cf",
       "title": "Historic Germantown 2026",
       "date": "2026-09-12",
@@ -125,6 +124,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_1592ad2e",
+      "title": "RockyFest 50: The 50th Anniversary of Rocky",
+      "date": "2026-09-29",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "🥊 Big Things Are Coming for RockyFest 2026 Get ready, champ! Plans are already in the works for RockyFest 2026 and the 50th Anniversary Celebration of the film's release! 🏆Philadelphia is gearing up for a once-in-a-generation celebration honoring the city’s most legendary underdog and the iconic Philly locations that made cinematic history. Expect special events, themed experiences, fan meetups, e",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -169,7 +183,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "",
+      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -183,6 +197,21 @@
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "parade",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fe3f97f5",
+      "title": "Revolutionary Family: The Biddles & American Independenceat Andalusia Historic House, Gardens & Arboretum",
+      "date": "2026-11-13",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
       "free": false,
       "description": "",
       "source": "visitphilly.com",
