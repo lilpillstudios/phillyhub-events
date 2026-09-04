@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-03T14:55:19.470694+00:00",
+  "scraped_at": "2026-09-04T14:52:17.267150+00:00",
   "event_count": 17,
   "events": [
     {
@@ -65,7 +65,7 @@
       "description": "",
       "source": "visitphilly.com",
       "priority": 1,
-      "end_date": "2026-12-31"
+      "end_date": "2027-12-31"
     },
     {
       "id": "ev_c0a425fb",
