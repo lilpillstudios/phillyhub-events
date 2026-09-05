@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-04T14:52:17.267150+00:00",
-  "event_count": 17,
+  "scraped_at": "2026-09-05T13:43:52.025081+00:00",
+  "event_count": 16,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -52,37 +52,6 @@
       "end_date": "2026-09-05"
     },
     {
-      "id": "ev_e8fc774b",
-      "title": "The Doan Gang: Outlaws of the Revolutionat the Mercer Museum",
-      "date": "2026-05-04",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9483,
-      "lng": -75.1464,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2027-12-31"
-    },
-    {
-      "id": "ev_c0a425fb",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-09-04",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_fa52fdb9",
       "title": "Once Upon a Nation",
       "date": "2026-09-05",
@@ -94,6 +63,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_00fb1345",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-09-05",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
