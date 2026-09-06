@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-05T13:43:52.025081+00:00",
-  "event_count": 16,
+  "scraped_at": "2026-09-06T14:00:34.507810+00:00",
+  "event_count": 14,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -36,40 +36,9 @@
       "end_date": "2027-02-14"
     },
     {
-      "id": "ev_ffb159cb",
-      "title": "A Nation of Artists",
-      "date": "2026-04-12",
-      "time": "10:00 AM",
-      "venue": "Philadelphia Museum of Art",
-      "addr": "2600 Benjamin Franklin Pkwy",
-      "lat": 39.9656,
-      "lng": -75.181,
-      "cat": "festival",
-      "free": false,
-      "description": "1,000+ works across PMA and PAFA. Four centuries of American art.",
-      "source": "city",
-      "priority": 3,
-      "end_date": "2026-09-05"
-    },
-    {
-      "id": "ev_fa52fdb9",
-      "title": "Once Upon a Nation",
-      "date": "2026-09-05",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_00fb1345",
+      "id": "ev_a8091880",
       "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-09-05",
+      "date": "2026-09-07",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19118",
