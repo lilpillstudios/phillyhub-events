@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-07T16:19:38.058298+00:00",
-  "event_count": 14,
+  "scraped_at": "2026-09-08T14:58:36.774040+00:00",
+  "event_count": 13,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -34,21 +34,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_a8091880",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-09-07",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_618c98cf",
