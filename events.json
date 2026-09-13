@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-12T13:55:52.418365+00:00",
+  "scraped_at": "2026-09-13T14:50:24.011906+00:00",
   "event_count": 13,
   "events": [
     {
@@ -34,21 +34,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_618c98cf",
-      "title": "Historic Germantown 2026",
-      "date": "2026-09-12",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_1592ad2e",
@@ -137,6 +122,21 @@
       "cat": "america250",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_75e1e80b",
+      "title": "Historic Germantown 2026",
+      "date": "2026-11-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
       "source": "visitphilly.com",
       "priority": 1
     },
