@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-22T15:28:02.126231+00:00",
-  "event_count": 13,
+  "scraped_at": "2026-09-23T15:21:41.653797+00:00",
+  "event_count": 12,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -34,21 +34,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_1592ad2e",
-      "title": "RockyFest 50: The 50th Anniversary of Rocky",
-      "date": "2026-09-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "🥊 Big Things Are Coming for RockyFest 2026 Get ready, champ! Plans are already in the works for RockyFest 2026 and the 50th Anniversary Celebration of the film's release! 🏆Philadelphia is gearing up for a once-in-a-generation celebration honoring the city’s most legendary underdog and the iconic Philly locations that made cinematic history. Expect special events, themed experiences, fan meetups, e",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_8d053c6f",
@@ -141,6 +126,21 @@
       "priority": 1
     },
     {
+      "id": "ev_c9ffdfc4",
+      "title": "RockyFest 50: The 50th Anniversary of Rocky",
+      "date": "2026-12-03",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "Subscribe to the Rocky Newsletter for the latest updates, ticket releases, and behind-the-scenes previews as we build toward this historic milestone. @import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hid",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
       "id": "ev_6d6436b6",
       "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
       "date": "2026-12-13",
@@ -152,21 +152,6 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_d7c1634f",
-      "title": "Washington Crossing Commemorates 250 Years",
-      "date": "2026-12-25",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
