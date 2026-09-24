@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-23T15:21:41.653797+00:00",
-  "event_count": 12,
+  "scraped_at": "2026-09-24T15:45:25.041771+00:00",
+  "event_count": 13,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -152,6 +152,21 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_d7c1634f",
+      "title": "Washington Crossing Commemorates 250 Years",
+      "date": "2026-12-25",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
