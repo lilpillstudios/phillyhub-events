@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-24T15:45:25.041771+00:00",
+  "scraped_at": "2026-09-25T15:46:03.048300+00:00",
   "event_count": 13,
   "events": [
     {
@@ -34,6 +34,21 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
+    },
+    {
+      "id": "ev_1592ad2e",
+      "title": "RockyFest 50: The 50th Anniversary of Rocky",
+      "date": "2026-09-29",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "@import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hidden} ._form_show{display:block;visibility:visible} #_form_57_ input[type=\"text\"], #_form_57_ input[type=\"tel\"], #_form_57_ input[type=\"date\"], #_form_",
+      "source": "visitphilly.com",
+      "priority": 1
     },
     {
       "id": "ev_8d053c6f",
@@ -122,21 +137,6 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_c9ffdfc4",
-      "title": "RockyFest 50: The 50th Anniversary of Rocky",
-      "date": "2026-12-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "Subscribe to the Rocky Newsletter for the latest updates, ticket releases, and behind-the-scenes previews as we build toward this historic milestone. @import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hid",
       "source": "visitphilly.com",
       "priority": 1
     },
