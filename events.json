@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-29T16:50:12.389543+00:00",
+  "scraped_at": "2026-09-30T16:43:49.302997+00:00",
   "event_count": 14,
   "events": [
     {
@@ -36,36 +36,6 @@
       "end_date": "2027-02-14"
     },
     {
-      "id": "ev_1592ad2e",
-      "title": "RockyFest 50: The 50th Anniversary of Rocky",
-      "date": "2026-09-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "@import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hidden} ._form_show{display:block;visibility:visible} #_form_57_ input[type=\"text\"], #_form_57_ input[type=\"tel\"], #_form_57_ input[type=\"date\"], #_form_",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_a7eaafdd",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-09-29",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_8d053c6f",
       "title": "Spirit of 76: The Philadelphia Cocktail Trail",
       "date": "2026-09-30",
@@ -77,6 +47,21 @@
       "cat": "america250",
       "free": false,
       "description": "2026 is Philly's biggest year yet. And more than 30 Philly hotels are serving history for America’s 250th birthday …",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_47ca2fe4",
+      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
+      "date": "2026-10-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19118",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -152,6 +137,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_c9ffdfc4",
+      "title": "RockyFest 50: The 50th Anniversary of Rocky",
+      "date": "2026-12-03",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "@import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hidden} ._form_show{display:block;visibility:visible} #_form_57_ input[type=\"text\"], #_form_57_ input[type=\"tel\"], #_form_57_ input[type=\"date\"], #_form_",
       "source": "visitphilly.com",
       "priority": 1
     },
