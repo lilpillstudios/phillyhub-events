@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-09-30T16:43:49.302997+00:00",
-  "event_count": 14,
+  "scraped_at": "2026-10-01T17:18:45.172693+00:00",
+  "event_count": 13,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -34,21 +34,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_8d053c6f",
-      "title": "Spirit of 76: The Philadelphia Cocktail Trail",
-      "date": "2026-09-30",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "2026 is Philly's biggest year yet. And more than 30 Philly hotels are serving history for America’s 250th birthday …",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_47ca2fe4",
