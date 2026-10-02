@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-01T17:18:45.172693+00:00",
-  "event_count": 13,
+  "scraped_at": "2026-10-02T16:33:05.622233+00:00",
+  "event_count": 11,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -34,36 +34,6 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
-    },
-    {
-      "id": "ev_47ca2fe4",
-      "title": "Revolutionary Philly Garden Railway at Morris Arboretum & Gardens",
-      "date": "2026-10-01",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19118",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "See model trains zip around a third of a mile of track complete with miniature buildings, bridges, and more.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_f08dede2",
-      "title": "DesignPhiladelphia Festival",
-      "date": "2026-10-01",
-      "time": "Various",
-      "venue": "var APPPATH_URI = \"/system/cms/\";\n                        var SITE_URL = \"https://designphiladelphia.org/\";\n                        var BASE_URL = \"ht",
-      "addr": "var APPPATH_URI = \"/system/cms/\";\n                        var SITE_URL = \"https://designphiladelphia.org/\";\n                        var BASE_URL = \"https://designphiladelphia.org/\";\n                  ",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
     },
     {
       "id": "ev_960e3ba3",
