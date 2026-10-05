@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-04T15:42:43.809618+00:00",
+  "scraped_at": "2026-10-05T19:33:04.129106+00:00",
   "event_count": 11,
   "events": [
     {
@@ -145,10 +145,10 @@
       "title": "The Declaration's Journeyat the Museum of the American Revolution",
       "date": "2027-01-03",
       "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9483,
-      "lng": -75.1464,
+      "venue": "We love our country",
+      "addr": "We love our country, Philadelphia, because on any given Saturday you can find an event like the Philadelphia Parallel Parking Competition.",
+      "lat": 39.9524,
+      "lng": -75.1636,
       "cat": "america250",
       "free": false,
       "description": "Explore the Declaration of Independence's impact at home and abroad via rare documents, works of art and artifacts from around the world.",
