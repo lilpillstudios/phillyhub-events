@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-05T19:33:04.129106+00:00",
-  "event_count": 11,
+  "scraped_at": "2026-10-06T17:04:54.505636+00:00",
+  "event_count": 12,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -92,6 +92,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_2b97f37d",
+      "title": "UFC 330 at Xfinity Mobile Arena",
+      "date": "2026-11-15",
+      "time": "Various",
+      "venue": "– UFC announced today it will return to Philadelphia",
+      "addr": "– UFC announced today it will return to Philadelphia, PA on Saturday, August 15 for",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
