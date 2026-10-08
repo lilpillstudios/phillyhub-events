@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-07T17:42:49.277389+00:00",
-  "event_count": 11,
+  "scraped_at": "2026-10-08T17:47:18.130285+00:00",
+  "event_count": 12,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -34,6 +34,22 @@
       "source": "visitphilly.com",
       "priority": 1,
       "end_date": "2027-02-14"
+    },
+    {
+      "id": "ev_35bbe39f",
+      "title": "REEL October: The Philadelphia Film Festival at 35",
+      "date": "2026-09-30",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19102",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1,
+      "end_date": "2026-10-11"
     },
     {
       "id": "ev_960e3ba3",
