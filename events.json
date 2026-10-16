@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-15T15:32:10.130143+00:00",
+  "scraped_at": "2026-10-16T15:17:42.443413+00:00",
   "event_count": 10,
   "events": [
     {
@@ -20,20 +20,19 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_4f872393",
-      "title": "Botany of Nationsat The Academy of Natural Sciences",
-      "date": "2026-03-28",
+      "id": "ev_fc77128f",
+      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
+      "date": "2026-10-16",
       "time": "Various",
       "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19103",
+      "addr": "Philadelphia, PA 19106",
       "lat": 39.9524,
       "lng": -75.1636,
-      "cat": "america250",
+      "cat": "festival",
       "free": false,
-      "description": "Discover the plants, cultures and untold Indigenous stories from the Lewis and Clark expedition at The Academy of Natural Sciences.",
+      "description": "",
       "source": "visitphilly.com",
-      "priority": 1,
-      "end_date": "2027-02-14"
+      "priority": 1
     },
     {
       "id": "ev_960e3ba3",
@@ -96,21 +95,6 @@
       "priority": 1
     },
     {
-      "id": "ev_c9ffdfc4",
-      "title": "RockyFest 50: The 50th Anniversary of Rocky",
-      "date": "2026-12-03",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "@import url(https://fonts.bunny.net/css?family=IBM+Plex+Sans:400); #_form_57_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; box-shadow:0px 1px 13px 0px rgba(0,0,0,0.3) } ._form_hide{display:none;visibility:hidden} ._form_show{display:block;visibility:visible} #_form_57_ input[type=\"text\"], #_form_57_ input[type=\"tel\"], #_form_57_ input[type=\"date\"], #_form_",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_6d6436b6",
       "title": "Semiquincentennial Exhibits at the Frances M. Maguire Art Museum at St. Joseph's University",
       "date": "2026-12-13",
@@ -122,6 +106,21 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_d7c1634f",
+      "title": "Washington Crossing Commemorates 250 Years",
+      "date": "2026-12-25",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
