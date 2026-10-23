@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-22T15:48:57.833057+00:00",
+  "scraped_at": "2026-10-23T15:39:47.350837+00:00",
   "event_count": 10,
   "events": [
     {
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_ac90f01b",
+      "id": "ev_71822ce0",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -45,7 +45,7 @@
       "lng": -75.1636,
       "cat": "america250",
       "free": false,
-      "description": "The Mütter Museum has a wide range of featured and permanent exhibitions.",
+      "description": "The Mütter Museum helps the public appreciate the mysteries and beauty of the human body while understanding the history of diagnosis and treatment of disease.",
       "source": "visitphilly.com",
       "priority": 1
     },
