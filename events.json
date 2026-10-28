@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-27T16:14:35.669181+00:00",
-  "event_count": 10,
+  "scraped_at": "2026-10-28T17:02:12.193326+00:00",
+  "event_count": 9,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,24 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_960e3ba3",
-      "title": "250th Anniversary Exhibitions at the Mütter Museum",
-      "date": "2026-10-27",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "The Mütter Museum helps the public appreciate the mysteries and beauty of the human body while understanding the history of diagnosis and treatment of disease.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_b50aaa2b",
+      "id": "ev_ee0b2990",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
