@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-10-31T15:58:23.285264+00:00",
+  "scraped_at": "2026-11-01T17:01:48.046519+00:00",
   "event_count": 10,
   "events": [
     {
@@ -20,21 +20,6 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_e8afbeab",
-      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-10-31",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_41d3706f",
       "title": "A Time for Libertyat Eastern State Penitentiary",
       "date": "2026-11-01",
@@ -44,6 +29,21 @@
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_f5f82659",
+      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
+      "date": "2026-11-01",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
       "free": false,
       "description": "",
       "source": "visitphilly.com",
