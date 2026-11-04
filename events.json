@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-03T18:15:38.084433+00:00",
+  "scraped_at": "2026-11-04T18:30:29.790630+00:00",
   "event_count": 9,
   "events": [
     {
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_0f40b6aa",
+      "id": "ev_0676017b",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
