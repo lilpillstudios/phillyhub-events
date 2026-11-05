@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-04T18:30:29.790630+00:00",
-  "event_count": 9,
+  "scraped_at": "2026-11-05T18:34:02.210884+00:00",
+  "event_count": 11,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_0676017b",
+      "id": "ev_7069b070",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -76,6 +76,36 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_e9d51323",
+      "title": "Revisit 1876at the Lits Building",
+      "date": "2026-12-06",
+      "time": "Various",
+      "venue": "The exhibit is designed by Drexel University’s Lenfest Center for Cultural Partnerships",
+      "addr": "The exhibit is designed by Drexel University’s Lenfest Center for Cultural Partnerships, ISA and Art Guild. Space for the exhibit is being donated by Brickstone Realty, owner of the Lits Building and ",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fdc942f9",
+      "title": "Meantime on Market Pop-Up Businesses in Market East",
+      "date": "2026-12-06",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19110",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
