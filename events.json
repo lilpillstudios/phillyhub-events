@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-12T18:44:11.962629+00:00",
+  "scraped_at": "2026-11-13T18:25:42.423816+00:00",
   "event_count": 10,
   "events": [
     {
@@ -20,21 +20,6 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_c66b3262",
-      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-12",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "festival",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
       "id": "ev_fe3f97f5",
       "title": "Revolutionary Family: The Biddles & American Independenceat Andalusia Historic House, Gardens & Arboretum",
       "date": "2026-11-13",
@@ -44,6 +29,21 @@
       "lat": 39.9524,
       "lng": -75.1636,
       "cat": "america250",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_cc2d750c",
+      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
+      "date": "2026-11-13",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
       "free": false,
       "description": "",
       "source": "visitphilly.com",
