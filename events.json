@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-13T18:25:42.423816+00:00",
+  "scraped_at": "2026-11-14T16:52:46.853304+00:00",
   "event_count": 10,
   "events": [
     {
@@ -20,29 +20,14 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_fe3f97f5",
-      "title": "Revolutionary Family: The Biddles & American Independenceat Andalusia Historic House, Gardens & Arboretum",
-      "date": "2026-11-13",
+      "id": "ev_1e34b25e",
+      "title": "Native North America Gallery at the Penn Museum",
+      "date": "2026-11-14",
       "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_cc2d750c",
-      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-13",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19106",
-      "lat": 39.9524,
-      "lng": -75.1636,
+      "venue": "3260 South Street Philadelphia",
+      "addr": "3260 South Street Philadelphia, PA 19104",
+      "lat": 39.93,
+      "lng": -75.17,
       "cat": "festival",
       "free": false,
       "description": "",
@@ -61,6 +46,21 @@
       "cat": "america250",
       "free": false,
       "description": "As the nation celebrates the Semiquincentennial, journey to Historic Germantown, Philadelphia, and experience history!",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_4c4e0201",
+      "title": "Seeking Profit and Powerat the Independence Seaport Museum",
+      "date": "2026-11-14",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19106",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "festival",
+      "free": false,
+      "description": "",
       "source": "visitphilly.com",
       "priority": 1
     },
