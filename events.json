@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-17T19:40:02.701215+00:00",
-  "event_count": 8,
+  "scraped_at": "2026-11-18T19:16:11.448772+00:00",
+  "event_count": 7,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_3dd8ca29",
+      "id": "ev_115c8bae",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -76,21 +76,6 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_d7c1634f",
-      "title": "Washington Crossing Commemorates 250 Years",
-      "date": "2026-12-25",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
