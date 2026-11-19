@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-18T19:16:11.448772+00:00",
-  "event_count": 7,
+  "scraped_at": "2026-11-19T19:23:15.838275+00:00",
+  "event_count": 10,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_115c8bae",
+      "id": "ev_9f2eced2",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -31,6 +31,21 @@
       "cat": "festival",
       "free": false,
       "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_fa23f26a",
+      "title": "6abc Dunkin' Thanksgiving Day Parade on the Benjamin Franklin Parkway",
+      "date": "2026-11-26",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "Philadelphia, PA 19103",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "parade",
+      "free": false,
+      "description": "The longest-running Thanksgiving Day parade in the country soars over the Benjamin Franklin Parkway once again. Here's the route, the highlights and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
@@ -76,6 +91,36 @@
       "cat": "america250",
       "free": false,
       "description": "Learn about current and upcoming exhibitions at the Frances M. Maguire Art Museum on the campus of Saint Joseph's University.",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_11c9b80d",
+      "title": "Reimagined Egypt Galleries Open at Penn Museum",
+      "date": "2026-12-19",
+      "time": "Various",
+      "venue": "3260 South Street Philadelphia",
+      "addr": "3260 South Street Philadelphia, PA 19104",
+      "lat": 39.93,
+      "lng": -75.17,
+      "cat": "festival",
+      "free": false,
+      "description": "",
+      "source": "visitphilly.com",
+      "priority": 1
+    },
+    {
+      "id": "ev_d7c1634f",
+      "title": "Washington Crossing Commemorates 250 Years",
+      "date": "2026-12-25",
+      "time": "Various",
+      "venue": "Philadelphia",
+      "addr": "",
+      "lat": 39.9524,
+      "lng": -75.1636,
+      "cat": "america250",
+      "free": false,
+      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
