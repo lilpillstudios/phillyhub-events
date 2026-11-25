@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-24T21:01:04.600447+00:00",
-  "event_count": 10,
+  "scraped_at": "2026-11-25T20:24:07.514793+00:00",
+  "event_count": 9,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_90d2e646",
+      "id": "ev_2a199084",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -106,21 +106,6 @@
       "cat": "festival",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_d7c1634f",
-      "title": "Washington Crossing Commemorates 250 Years",
-      "date": "2026-12-25",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "america250",
-      "free": false,
-      "description": "Don’t Miss the Boat for a Once-in-a-Lifetime Celebration of America’s 250th Anniversary! The Countdown to 2026 December 25, 2026, marks the 250th anniversary of a pivotal moment in our nation’s founding: George Washington’s daring crossing of the Delaware River. This courageous act, and the military victories that followed, turned the tide of the American Revolution",
       "source": "visitphilly.com",
       "priority": 1
     },
