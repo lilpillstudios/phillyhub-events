@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "scraped_at": "2026-11-26T20:00:31.499221+00:00",
-  "event_count": 9,
+  "scraped_at": "2026-11-27T19:49:40.897663+00:00",
+  "event_count": 8,
   "events": [
     {
       "id": "ev_453e6ed0",
@@ -20,9 +20,9 @@
       "end_date": "2026-12-31"
     },
     {
-      "id": "ev_963b01e3",
+      "id": "ev_1f273da7",
       "title": "Seeking Profit and Powerat the Independence Seaport Museum",
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "time": "Various",
       "venue": "Philadelphia",
       "addr": "Philadelphia, PA 19106",
@@ -31,21 +31,6 @@
       "cat": "festival",
       "free": false,
       "description": "",
-      "source": "visitphilly.com",
-      "priority": 1
-    },
-    {
-      "id": "ev_fa23f26a",
-      "title": "6abc Dunkin' Thanksgiving Day Parade on the Benjamin Franklin Parkway",
-      "date": "2026-11-26",
-      "time": "Various",
-      "venue": "Philadelphia",
-      "addr": "Philadelphia, PA 19103",
-      "lat": 39.9524,
-      "lng": -75.1636,
-      "cat": "parade",
-      "free": false,
-      "description": "The longest-running Thanksgiving Day parade in the country soars over the Benjamin Franklin Parkway once again. Here's the route, the highlights and more.",
       "source": "visitphilly.com",
       "priority": 1
     },
