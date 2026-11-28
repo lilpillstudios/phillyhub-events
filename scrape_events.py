@@ -98,12 +98,26 @@ def geocode(v):
 
 # Feed events: same keywords, but default to Arts instead of 250th; "concert" is the app's Sports bucket
 TEAM_KW = ["eagles","phillies","sixers","76ers","flyers","philadelphia union","temple owls","villanova"]
+# Whole-word matches (so "band" skips "husband", "drag" skips "dragon"); checked in this order
+FOOD_KW = ["food","foodie","eats","tasting","brunch","dinner","supper","chef","cooking","culinary","cocktail","cocktails",
+           "wine","beer","brewery","whiskey","bourbon","sake","pizza","cheesesteak","bakery","baking","dessert","restaurant week"]
+NIGHTLIFE_KW = ["party","nightclub","club night","day party","dj","lounge","happy hour","bar crawl","pub crawl","karaoke",
+                "drag","rave","after dark","silent disco","nightlife","singles","trivia night","comedy night"]
+MUSIC_KW = ["concert","live music","jazz","orchestra","symphony","band","bands","choir","hip hop","r&b","rapper","singer",
+            "songwriter","album release","acoustic","open mic","gospel","opera","philharmonic","recital","quartet"]
+def _has(t, kws): return any(re.search(r"(?<![a-z])"+re.escape(k)+r"(?![a-z])", t) for k in kws)
+
 def categorize_feed(title, desc=""):
     t = (title+" "+desc).lower()
     if any(k in t for k in FIREWORKS_KW): return "fireworks"
     if any(k in t for k in PARADE_KW): return "parade"
     if any(k in t for k in A250_KW): return "america250"
     if any(k in t for k in SPORTS_KW+TEAM_KW): return "concert"
+    # Title first, so a "Jazz Brunch" description doesn't outvote a title that says what it is
+    for text in (title.lower(), t):
+        if _has(text, FOOD_KW): return "food"
+        if _has(text, NIGHTLIFE_KW): return "nightlife"
+        if _has(text, MUSIC_KW): return "music"
     return "festival"
 
 def make_id(title, date): return "ev_"+hashlib.md5(f"{title.lower().strip()}-{date}".encode()).hexdigest()[:8]
@@ -541,6 +555,7 @@ def scrape_ticketmaster(verbose=False):
             v.get("name",""),(v.get("address") or {}).get("line1",""),loc["latitude"],loc["longitude"],
             _clean(e.get("info") or e.get("pleaseNote") or f"{seg} at {v.get('name','')}"),e.get("url"),"ticketmaster.com")
         if seg=="Sports": ev["cat"]="concert"
+        elif seg=="Music": ev["cat"]="music"
         events.append(ev)
     events = collapse_recurring(events)
     events = [e for e in events if _feed_ok(e)]
