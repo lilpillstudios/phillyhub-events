@@ -41,6 +41,9 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Run scraper
+        env:
+          # Optional: add a free Ticketmaster Discovery key as a repo secret to pull arena/stadium shows
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
         run: python scrape_events.py --verbose --output events.json
 
       - name: Check for changes

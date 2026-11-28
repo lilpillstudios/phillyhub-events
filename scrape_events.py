@@ -9,12 +9,16 @@ Architecture:
   Soccer Matches (hardcoded, protected)
   City Events (phila.gov fallback)
   manual_events.json (Z's curated, priority boost)
+  Live feeds (rolling, refill every day):
+    Eventbrite Philly (JSON-LD on search pages, all + free)
+    Center City District (The Events Calendar REST API)
+    Ticketmaster Discovery API (only if TICKETMASTER_API_KEY is set)
        ↓
   Merge + Dedup (protected wins) + Priority Sort → events.json
 """
 
-import json, re, sys, hashlib, argparse, time
-from datetime import datetime
+import json, re, sys, hashlib, argparse, time, os, html
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 import requests
@@ -26,6 +30,16 @@ FOLLOW_DELAY = 1
 
 VISITPHILLY_URL = "https://www.visitphilly.com/articles/philadelphia/events-festivals-2026/"
 DISCOVERPHL_URL = "https://www.discoverphl.com/blog-post/philadelphia-2026/"
+
+# Live feeds — only events in the next FEED_HORIZON_DAYS, inside PHILLY_BOX
+FEED_HORIZON_DAYS = 60
+PHILLY_BOX = (39.85,40.15,-75.35,-75.0)  # lat_min, lat_max, lng_min, lng_max (keeps Camden, drops outer NJ)
+# Feed listings are user-posted; keep the app store-safe
+BLOCK_KW = ["lust","sexy","strip club","stripper","erotic","xxx","kink","bdsm","nsfw","burlesque","fetish","swingers"]
+EVENTBRITE_FEEDS = [("https://www.eventbrite.com/d/pa--philadelphia/all-events/?page={}",6,False),
+                    ("https://www.eventbrite.com/d/pa--philadelphia/free--events/?page={}",3,True)]
+TRIBE_SITES = [("https://centercityphila.org/wp-json/tribe/events/v1/events","centercityphila.org")]
+TICKETMASTER_URL = "https://app.ticketmaster.com/discovery/v2/events.json"
 
 VENUE_GEO = {
     "lincoln financial field":(39.906,-75.168),"philadelphia stadium":(39.906,-75.168),
@@ -81,6 +95,16 @@ def geocode(v):
         w = k.split()
         if len(w)>=2 and all(x in vl for x in w[:2]): return c
     return 39.9524,-75.1636
+
+# Feed events: same keywords, but default to Arts instead of 250th; "concert" is the app's Sports bucket
+TEAM_KW = ["eagles","phillies","sixers","76ers","flyers","philadelphia union","temple owls","villanova"]
+def categorize_feed(title, desc=""):
+    t = (title+" "+desc).lower()
+    if any(k in t for k in FIREWORKS_KW): return "fireworks"
+    if any(k in t for k in PARADE_KW): return "parade"
+    if any(k in t for k in A250_KW): return "america250"
+    if any(k in t for k in SPORTS_KW+TEAM_KW): return "concert"
+    return "festival"
 
 def make_id(title, date): return "ev_"+hashlib.md5(f"{title.lower().strip()}-{date}".encode()).hexdigest()[:8]
 
@@ -377,6 +401,152 @@ def load_manual(verbose=False):
     except Exception as ex: print(f"[manual] ERROR: {ex}",file=sys.stderr)
     return events
 
+# ═══ SOURCE 6+: Live Feeds ═══
+def _in_philly(lat, lng):
+    try: lat,lng = float(lat),float(lng)
+    except (TypeError,ValueError): return False
+    return PHILLY_BOX[0]<=lat<=PHILLY_BOX[1] and PHILLY_BOX[2]<=lng<=PHILLY_BOX[3]
+
+def _in_window(date):
+    today = datetime.now().strftime("%Y-%m-%d")
+    return bool(date) and today <= date <= (datetime.now()+timedelta(days=FEED_HORIZON_DAYS)).strftime("%Y-%m-%d")
+
+def _clean(text, n=400):
+    text = BeautifulSoup(html.unescape(text or ""),"html.parser").get_text(" ",strip=True)
+    return re.sub(r'\s+',' ',text)[:n]
+
+def _fmt_time(hhmm):
+    try: return datetime.strptime(hhmm[:5],"%H:%M").strftime("%I:%M %p").lstrip("0")
+    except (TypeError,ValueError): return "Various"
+
+def _feed_ok(ev):
+    t = (ev["title"]+" "+ev["description"]).lower()
+    return len(ev["title"])>=5 and not any(k in t for k in BLOCK_KW)
+
+def _feed_event(title, date, end, tm, venue, addr, lat, lng, desc, url, source, free=False):
+    title = _clean(title,150)
+    ev = {"id":make_id(title,date),"title":title,"date":date,"time":tm,
+          "venue":venue[:150] or "Philadelphia","addr":addr[:200],"lat":round(float(lat),5),"lng":round(float(lng),5),
+          "cat":categorize_feed(title,desc),"free":free or "free" in (title+" "+desc).lower(),
+          "description":desc,"source":source,"priority":2}
+    if url: ev["ticketUrl"]=url
+    if end and end>date: ev["end_date"]=end
+    return ev
+
+def collapse_recurring(events):
+    """Daily/weekly repeats (holiday markets, tours, multi-night runs) → one event with a date range."""
+    groups = {}
+    for ev in events:
+        key = (re.sub(r"[^a-z0-9 ]","",ev["title"].lower()).strip(), ev["venue"].lower())
+        g = groups.get(key)
+        if not g: groups[key]=dict(ev); continue
+        last = max(g.get("end_date",g["date"]), ev.get("end_date",ev["date"]))
+        if ev["date"]<g["date"]: g.update(date=ev["date"],id=ev["id"],time=ev["time"])
+        if last>g["date"]: g["end_date"]=last
+    return list(groups.values())
+
+def scrape_eventbrite(verbose=False):
+    events, seen = [], set()
+    for tmpl,pages,free in EVENTBRITE_FEEDS:
+        for page in range(1,pages+1):
+            time.sleep(FOLLOW_DELAY)
+            soup = fetch(tmpl.format(page), verbose)
+            if not soup: break
+            found = 0
+            for sc in soup.find_all("script",{"type":"application/ld+json"}):
+                try: data = json.loads(sc.string or "")
+                except ValueError: continue
+                items = data.get("itemListElement",[]) if isinstance(data,dict) else []
+                for it in items:
+                    e = it.get("item",{}) if isinstance(it,dict) else {}
+                    if "Event" not in str(e.get("@type","")): continue
+                    found += 1
+                    loc = e.get("location") or {}
+                    geo, adr = loc.get("geo") or {}, loc.get("address") or {}
+                    date = (e.get("startDate") or "")[:10]
+                    url = e.get("url")
+                    if url in seen:
+                        # Seen in the all-events pass; the free pass only upgrades the flag
+                        if free: next((x for x in events if x.get("ticketUrl")==url),{})["free"]=True
+                        continue
+                    if not _in_window(date) or not _in_philly(geo.get("latitude"),geo.get("longitude")): continue
+                    seen.add(url)
+                    addr = ", ".join(x for x in [adr.get("streetAddress"),adr.get("addressLocality")] if x)
+                    events.append(_feed_event(e.get("name",""),date,(e.get("endDate") or "")[:10],"See listing",
+                        loc.get("name",""),addr,geo["latitude"],geo["longitude"],_clean(e.get("description")),
+                        url,"eventbrite.com",free))
+            if verbose: print(f"  [eventbrite] {tmpl.format(page)[34:]} → {found} listed")
+            if not found: break
+    events = collapse_recurring(events)
+    events = [e for e in events if _feed_ok(e)]
+    if verbose: print(f"[eventbrite] Total: {len(events)}")
+    return events
+
+def scrape_tribe(verbose=False):
+    events = []
+    today = datetime.now().strftime("%Y-%m-%d")
+    end = (datetime.now()+timedelta(days=FEED_HORIZON_DAYS)).strftime("%Y-%m-%d")
+    for api,source in TRIBE_SITES:
+        url = f"{api}?per_page=50&start_date={today}&end_date={end}"
+        for _ in range(6):
+            try:
+                r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT); r.raise_for_status(); data = r.json()
+            except Exception as e:
+                if verbose: print(f"  FETCH ERROR {url[:60]}: {e}",file=sys.stderr)
+                break
+            for e in data.get("events",[]):
+                v = e.get("venue") or {}
+                if isinstance(v,list): v = v[0] if v else {}
+                lat,lng = v.get("geo_lat"),v.get("geo_lng")
+                if not _in_philly(lat,lng): lat,lng = geocode(v.get("venue","") or e.get("title",""))
+                date = e.get("start_date","")[:10]
+                if not _in_window(date): continue
+                addr = ", ".join(x for x in [v.get("address"),v.get("city")] if x)
+                cost = (e.get("cost") or "").lower()
+                events.append(_feed_event(e.get("title",""),date,e.get("end_date","")[:10],
+                    "All Day" if e.get("all_day") else _fmt_time(e.get("start_date","")[11:16]),
+                    _clean(v.get("venue",""),150),addr,lat,lng,_clean(e.get("description")),
+                    e.get("url"),source,free="free" in cost))
+            url = data.get("next_rest_url")
+            if not url: break
+            time.sleep(FOLLOW_DELAY)
+    events = collapse_recurring(events)
+    events = [e for e in events if _feed_ok(e)]
+    if verbose: print(f"[tribe] Total (after collapsing repeats): {len(events)}")
+    return events
+
+def scrape_ticketmaster(verbose=False):
+    key = os.environ.get("TICKETMASTER_API_KEY")
+    if not key:
+        if verbose: print("[ticketmaster] No TICKETMASTER_API_KEY — skipped")
+        return []
+    now = datetime.now(timezone.utc)
+    params = {"apikey":key,"latlong":"39.9526,-75.1652","radius":15,"unit":"miles","size":150,"sort":"date,asc",
+              "startDateTime":now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "endDateTime":(now+timedelta(days=FEED_HORIZON_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")}
+    try:
+        r = requests.get(TICKETMASTER_URL, params=params, headers=HEADERS, timeout=REQUEST_TIMEOUT); r.raise_for_status()
+        raw = r.json().get("_embedded",{}).get("events",[])
+    except Exception as e:
+        print(f"[ticketmaster] ERROR: {type(e).__name__}",file=sys.stderr); return []
+    events = []
+    for e in raw:
+        v = (e.get("_embedded",{}).get("venues") or [{}])[0]
+        loc = v.get("location") or {}
+        st = e.get("dates",{}).get("start",{})
+        date = st.get("localDate","")
+        if not _in_window(date) or not _in_philly(loc.get("latitude"),loc.get("longitude")): continue
+        seg = ((e.get("classifications") or [{}])[0].get("segment") or {}).get("name","")
+        ev = _feed_event(e.get("name",""),date,None,_fmt_time(st.get("localTime","")) if st.get("localTime") else "TBA",
+            v.get("name",""),(v.get("address") or {}).get("line1",""),loc["latitude"],loc["longitude"],
+            _clean(e.get("info") or e.get("pleaseNote") or f"{seg} at {v.get('name','')}"),e.get("url"),"ticketmaster.com")
+        if seg=="Sports": ev["cat"]="concert"
+        events.append(ev)
+    events = collapse_recurring(events)
+    events = [e for e in events if _feed_ok(e)]
+    if verbose: print(f"[ticketmaster] Total: {len(events)}")
+    return events
+
 # ═══ Dedup + Filter + Sort ═══
 def dedup(events):
     seen = {}
@@ -415,6 +585,9 @@ def main():
     vp = scrape_visitphilly(args.verbose); all_ev.extend(vp); print(f"  🌐 Visit Philly: {len(vp)}")
     vp_urls = {e.get("link","") for e in vp if e.get("link")}
     dphl = scrape_discoverphl(vp_urls,args.verbose); all_ev.extend(dphl); print(f"  🔗 DiscoverPHL: {len(dphl)}")
+    eb = scrape_eventbrite(args.verbose); all_ev.extend(eb); print(f"  🎟  Eventbrite: {len(eb)}")
+    tribe = scrape_tribe(args.verbose); all_ev.extend(tribe); print(f"  🏙  Center City District: {len(tribe)}")
+    tmk = scrape_ticketmaster(args.verbose); all_ev.extend(tmk); print(f"  🎤 Ticketmaster: {len(tmk)}")
 
     print(f"\n  Raw total: {len(all_ev)}")
     dd = dedup(all_ev); print(f"  After dedup: {len(dd)}")
